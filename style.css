@@ -1,0 +1,61 @@
+/* * {
+    border: solid red 2px;
+} */
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+/*-----------------*/
+.myself{
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+/*-----------------*/
+.present{
+    align-self: center;
+    width: 60%;
+}
+
+.im{
+    font-size: 3em;
+    padding-left: 10%;
+}
+.prenom{
+    font-size: 10em;
+}
+.desc{
+    font-size: 3em;
+}
+
+/*-----------------*/
+.social-media{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.media{
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media-name {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.media img {
+    width: 100%;
+}
