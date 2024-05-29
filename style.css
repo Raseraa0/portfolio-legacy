@@ -1,19 +1,31 @@
-/* * {
-    border: solid red 2px;
-} */
+/*  
+TODO
+Mettre des minwidth et minheinght pour éviter les dingerie de mise en page
+Mettre des bouton quie permette de passer a la section suivante ( genre au lieu de scroller
+
+
+
+*/
+
+
 
 body {
     margin: 0;
     display: flex;
     flex-direction: column;
 }
+
+section{
+    height: 100vh;
+}
+
+
 /*-----------------*/
 .myself{
-    border-color: blue;
+    background-color: blue;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 100vh;
 }
 
 /*-----------------*/
@@ -53,9 +65,118 @@ body {
     margin-top: 10px;
     width: 100%;
     text-align: center;
-
+    
 }
 
 .media img {
     width: 100%;
+}
+
+/*-----------------*/
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 8em;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+}
+
+.projects-list{
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/*-----------------*/
+.project {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 50% 50%;
+}
+
+.project-name{
+    margin-left: 5%;
+    font-size: 3em;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+.project-description{
+    font-size: 1.5em;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.project-preview{
+    width: 100px;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    align-self: center;
+    justify-self: center;
+}
+
+/*-----------------*/
+.skills{
+    background-color: orange;
+    height: 60vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.skills-list{
+    border-color: black;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 3%;
+}
+
+/*-----------------*/
+.skill{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+}
+
+.skill-name{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.skill img{
+    width: 100px;
+}
+
+.skill-more{
+    text-wrap: wrap;
+}
+/*-----------------*/
+/*-----------------*/
+
+
+/*-----------------*/
+footer{
+    height: 40vh;
+    background-color: lightgreen;
+}
+
+
+* {
+    border: solid red 2px;
 }
