@@ -7,12 +7,20 @@ Mettre des bouton quie permette de passer a la section suivante ( genre au lieu 
 
 */
 
-
+@font-face {
+    font-family: 'Diastema regular';
+    src: url('font/diastema/Diastema\ Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Rubik regular';
+    src: url('font/rubik/Rubik-Regular.ttf') format('truetype');
+}
 
 body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Rubik regular';
 }
 
 section{
@@ -40,7 +48,9 @@ section{
 }
 .prenom{
     font-size: 10em;
+    font-family: 'Diastema regular';
 }
+
 .desc{
     font-size: 3em;
 }
@@ -177,6 +187,6 @@ footer{
 }
 
 
-* {
+/* * {
     border: solid red 2px;
-}
+} */
