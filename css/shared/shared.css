@@ -1,0 +1,28 @@
+
+body {
+    margin: 0;
+    
+    display: flex;
+    flex-direction: column;
+    
+    font-family: 'Rubik regular';
+}
+
+section{
+    height: 100vh;
+}
+
+h2 {
+    margin: 0;
+    
+    font-family: 'Diastema Regular';
+    font-size: 8em;
+    
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+}
+
+h3 {
+    font-family: 'Diastema Regular';
+}
