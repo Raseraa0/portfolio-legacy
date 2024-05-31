@@ -19,3 +19,6 @@ Mettre des bouton quie permette de passer a la section suivante ( genre au lieu 
 @import 'specific/skills/main-skills.css';
 @import 'specific/skills/each-skill.css';
 
+@import 'specific/head-foot/header.css';
+@import 'specific/head-foot/footer.css';
+

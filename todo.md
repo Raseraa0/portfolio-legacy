@@ -6,11 +6,12 @@ réorganiser le code html et css, bon nom de variable etc
 
 gérer la variation de taille de fenetre avec des pourcentage et des minwidth genre
 
-améliorer tous un peu a droite a gauche (petite animation, style etc)
-
 ajouter barre du dessus
 
 rajouter barre du dessous
+
+améliorer tous un peu a droite a gauche (petite animation, style etc)
+
 
 rajouter fonctionnalité comme bouton pour passer a la section suivante
 
@@ -23,7 +24,7 @@ en dessous, faire truc pour envoyer des messages
 changer les icone genre de logo ?
 
 
-
+vérifier la cohérence de la langue utilisé
 
 link le wallpaper
 
