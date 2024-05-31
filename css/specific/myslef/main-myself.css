@@ -1,3 +1,4 @@
+
 .myself{
     position: relative;
 
@@ -12,8 +13,7 @@
 
 .present{
     align-self: center;
-  
-    width: 60%;
+    width: max(60%,1000px);
 }
 
 .im{
@@ -22,7 +22,7 @@
     font-size: 3em;
 }
 .prenom{
-    margin: -20px 0 0 0;
+    margin: -2% 0 0 0;
   
     font-family: 'Diastema regular';
     font-size: 10em;
@@ -35,7 +35,7 @@
 
 .social-media{
     align-self: center;
-    width: 30%;
+    width: max(30%,400px);
     
     display: flex;
     flex-direction: row;
@@ -49,7 +49,7 @@
 }
 
 .media-name {
-    margin-top: 10px;
+    margin-top: 10%;
     width: 100%;
 
     text-align: center;

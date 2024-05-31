@@ -12,9 +12,9 @@
 }
 
 .projects-list{
-    margin-left: 20px;
-    margin-right: 20px;
-    flex-grow: 1;
+    min-width: 800px;
+    width: 100%;
+    margin: 0 20px;
 
     display: flex;
     flex-direction: column;

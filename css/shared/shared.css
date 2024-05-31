@@ -1,4 +1,6 @@
 
+
+
 body {
     margin: 0;
     
@@ -9,7 +11,7 @@ body {
 }
 
 section{
-    height: 100vh;
+    height: max(100vh,500px);
 }
 
 h2 {

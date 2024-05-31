@@ -1,5 +1,5 @@
 .skills{
-    height: 60vh;
+    height: max(60vh,500px);
 
     display: flex;
     flex-direction: row-reverse;
@@ -14,13 +14,12 @@
 }
 
 .skills-list{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 0 ;
     flex-grow: 1;
 
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 3%;
+    gap: 5%;
 }
 
