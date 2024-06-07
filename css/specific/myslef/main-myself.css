@@ -6,9 +6,6 @@
     flex-direction: column;
     justify-content: space-evenly;
 
-    background-color:var(--background);
-
-    color: var(--font-light);
 }
 
 .present{

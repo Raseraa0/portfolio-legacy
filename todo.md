@@ -34,7 +34,8 @@ link le game of life
 
 faire section ou jexplique boids
 
-
+//TODO scroll bar transparente sur mobile ? ( et peut etre sur pc)
+genre en mode custom scroll barre apres faut pas en faire trop
 
 
 

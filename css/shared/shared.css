@@ -1,7 +1,3 @@
-html{
-    border: solid yellow 1px;
-}
-
 
 body {
     margin: 0;
@@ -11,15 +7,15 @@ body {
     display: flex;
     flex-direction: column;
     
-    font-family: 'Urbanist';
+    background-color:var(--background);
 
-    border: solid red 1px;
+    color: var(--secondary-foreground);
+
+    font-family: 'Urbanist';
 }
 
 section{
     height: max(100vh,500px);
-    border: solid blue 1px;
-
 }
 
 h2 {
