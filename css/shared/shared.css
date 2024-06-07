@@ -1,4 +1,6 @@
-
+html{
+    border: solid yellow 1px;
+}
 
 
 body {
@@ -10,10 +12,14 @@ body {
     flex-direction: column;
     
     font-family: 'Urbanist';
+
+    border: solid red 1px;
 }
 
 section{
     height: max(100vh,500px);
+    border: solid blue 1px;
+
 }
 
 h2 {
