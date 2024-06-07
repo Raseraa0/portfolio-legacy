@@ -9,14 +9,24 @@ footer{
     align-items: center;
     gap: 10%;
 
-    color: var(--font-dark);
+    color: var(--secondary-foreground);
 
-    background-color: antiquewhite;
 }
 
 .footer-all-navs{
-
     display: flex;
     flex-direction: row;
     gap: 30%;
+}
+
+.footer-nav{
+    color: var(--secondary-foreground);
+
+    cursor: pointer;
+
+    transition: text-shadow 0.8s ease-in-out;
+}
+
+.footer-nav:hover{
+    text-shadow: 0 0 10px var(--primary);
 }
