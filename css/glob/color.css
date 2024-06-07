@@ -1,22 +1,44 @@
 :root{
-    --background-dark:#111725;
-    --background-dark-2:#172448;
-    --background-light:#F7F9FF;
+    /* Couleur de fond */
+    --background: hsl(229 20% 20%);
+    /* Couleur du premier plan ou du texte principal */
+    --foreground: hsl(231 28% 73%);
+    /* Couleur atténuée ou discrète */
+    --muted: hsl(229 12% 24%);
+    /* Couleur du premier plan pour le texte atténué */
+    --muted-foreground: hsl(229 12% 74%);
+    /* Couleur des fenêtres contextuelles ou des popups */
+    --popover: hsl(229 20% 17%);
+    /* Couleur du premier plan pour les éléments des fenêtres contextuelles */
+    --popover-foreground: hsl(231 28% 83%);
+    /* Couleur des cartes ou des conteneurs similaires */
+    --card: hsl(229 20% 18%);
+    /* Couleur du premier plan pour les éléments dans les cartes */
+    --card-foreground: hsl(231 28% 78%);
+    /* Couleur des bordures */
+    --border: hsl(229 10% 25%);
+    /* Couleur des zones de saisie ou des éléments similaires */
+    --input: hsl(229 10% 28%);
+    /* Couleur principale ou couleur d'accentuation principale */
+    --primary: hsl(174 42% 65%);
+    /* Couleur du premier plan pour les éléments principaux */
+    --primary-foreground: hsl(174 42% 5%);
+    /* Couleur secondaire ou couleur d'accentuation secondaire */
+    --secondary: hsl(174 30% 25%);
+    /* Couleur du premier plan pour les éléments secondaires */
+    --secondary-foreground: hsl(174 30% 85%);
+    /* Couleur d'accentuation */
+    --accent: hsl(229 20% 35%);
+    /* Couleur du premier plan pour les éléments accentués */
+    --accent-foreground: hsl(229 20% 95%);
+    /* Couleur pour les actions destructrices ou de suppression */
+    --destructive: hsl(5 96% 45%);
+    /* Couleur pour les anneaux ou les mises en évidence */
+    --ring: hsl(174 42% 65%);
+    /* Couleur du premier plan pour les éléments destructifs */
+    --destructive-foreground: hsl(0 0% 100%);
     
-    --side-light:#BDD1FF;
     
-    --font-dark:#1D2E5C;
-    --font-light:#D5E2FF;
-    --font-light-2:#93B4FF;
-    
-    --interactive-light:#EDF2FE;
-    --interactive-light-2:#DFEAFF;
-    
-    --border:#375098;
-
-    /* Garder une couleur du style le orange degeulasse que j'ai mis pour skill */
-
     --transparent:rgba(0, 0, 0, 0);
-    --white : #EEEEF0;
 
 }

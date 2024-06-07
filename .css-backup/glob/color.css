@@ -1,0 +1,22 @@
+:root{
+    --background-dark:#111725;
+    --background-dark-2:#172448;
+    --background-light:#F7F9FF;
+    
+    --side-light:#BDD1FF;
+    
+    --font-dark:#1D2E5C;
+    --font-light:#D5E2FF;
+    --font-light-2:#93B4FF;
+    
+    --interactive-light:#EDF2FE;
+    --interactive-light-2:#DFEAFF;
+    
+    --border:#375098;
+
+    /* Garder une couleur du style le orange degeulasse que j'ai mis pour skill */
+
+    --transparent:rgba(0, 0, 0, 0);
+    --white : #EEEEF0;
+
+}
