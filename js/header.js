@@ -10,26 +10,18 @@ export function headerSetup() {
 
     for (let nav of navs){
         let selecteur = document.querySelector(".selecteur");
+
         nav.addEventListener('mouseenter', () => {
             
-
             selecteur.style.width = `${nav.clientWidth}px`;
-
-
             selecteur.style.left = `${nav.clientWidth * parseInt(nav.dataset.num)}px`;
+        });
 
+        nav.addEventListener('mouseleave', () => {
+            
+            selecteur.style.width = `100%`;
+            selecteur.style.left = `0`;
         });
     }
-
-    let barnav = document.querySelector(".nav-barre");
-
-    barnav.addEventListener('mouseleave',() =>{
-        let nav = document.querySelector(".nav");
-
-        let selecteur = document.querySelector(".selecteur");
-        selecteur.style.width = "100%";
-        selecteur.style.left = "0";
-
-    })
 
 }
