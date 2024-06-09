@@ -10,7 +10,7 @@
 }
 
 .skills-title{
-    background-color: var(--background-dark-2);
+    color: var(--primary);
 }
 
 .skills-list{

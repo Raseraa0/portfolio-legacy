@@ -38,6 +38,13 @@
     /* Couleur du premier plan pour les éléments destructifs */
     --destructive-foreground: hsl(0 0% 100%);
     
+
+    --skill-1-a: #E54D2E;
+    --skill-1-b: #6E2920;
+    --skill-2-a: #30A46C;
+    --skill-2-b: #20573E;
+    --skill-3-a: #FFC53D;
+    --skill-3-b: #8F6424;
     
     --transparent:rgba(0, 0, 0, 0);
 

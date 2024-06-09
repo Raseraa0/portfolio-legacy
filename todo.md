@@ -19,7 +19,7 @@ repenser les couleur ?
 
 en dessous, faire truc pour envoyer des messages
 
-
+ameliorer tout les truc genre la les project sont pas beau quoi
 
 changer les icone genre de logo ?
 
@@ -38,6 +38,6 @@ faire section ou jexplique boids
 genre en mode custom scroll barre apres faut pas en faire trop
 
 
-
+foutre des ombre partout ???
 
 (intégrer boids ?)

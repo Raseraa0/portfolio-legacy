@@ -10,6 +10,17 @@
     color: black; /* TODO a changer ?*/
 
     border-radius: 20px;
+    
+    border-style: solid;
+    border-width: 5px;
+
+    box-shadow: 10px 10px 5px var(--primary-foreground);
+
+    transition: translate 0.8s ease-out;
+}
+
+.skill:hover{
+    translate: 0 -20px;
 }
 
 .skill-name{
@@ -27,16 +38,15 @@
 }
 
 .skill1{
-    background-color: #E54D2E;
-    border-color: #6E2920;
+    background-color: var(--skill-1-a);
+    border-color: var(--skill-1-b);
 }
 .skill2{
-    background-color: #30A46C;
-    border-color: #20573E;
+    background-color: var(--skill-2-a);
+    border-color: var(--skill-2-b);
 }
 .skill3{
-    background-color: #FFC53D;
-    border-color: #8F6424;
+    background-color: var(--skill-3-a);
+    border-color: var(--skill-3-b);
 }
-
 
