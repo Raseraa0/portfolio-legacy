@@ -1,11 +1,23 @@
 
 .myself{
+
+    height: 100vh;
+    min-height: 650px;
+
+    display: flex;
+    flex-direction: column;
+
     position: relative;
+
+}
+
+.hero{
+    margin-top: 70px;
+    flex-grow: 1;
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
 }
 
 .present{
@@ -28,6 +40,8 @@
 
 .prenom{
   
+    text-wrap: nowrap;
+
     font-family: 'Diastema regular';
     font-size: 6em;
     color: var(--foreground);

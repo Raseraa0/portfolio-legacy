@@ -1,8 +1,11 @@
+/* *{border: solid red 1px;} */
 
 body {
     margin: 0;
     padding: 0;
     width: 100%;
+    min-width: 1250px;
+    
 
     display: flex;
     flex-direction: column;
@@ -12,10 +15,6 @@ body {
     color: var(--secondary-foreground);
 
     font-family: 'Urbanist';
-}
-
-section{
-    height: max(100vh,500px);
 }
 
 h2 {

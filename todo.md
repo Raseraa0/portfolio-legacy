@@ -40,4 +40,8 @@ genre en mode custom scroll barre apres faut pas en faire trop
 
 foutre des ombre partout ???
 
+meilleur background? genre motif ou gros degradé de couleur jsp
+
+les compétence, faire en sorte que ca ressort comme si c'était en relief ??
+
 (intégrer boids ?)
