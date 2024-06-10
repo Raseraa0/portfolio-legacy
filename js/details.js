@@ -9,6 +9,4 @@ export function setDetails() {
     for(let projectPlus of projectsPlus){
         projectPlus.style.borderRadius = `${projectPlus.clientHeight/2}px`
     }
-
-
 }
