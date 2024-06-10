@@ -8,6 +8,7 @@ Mettre des bouton quie permette de passer a la section suivante ( genre au lieu 
 
 @import 'glob/color.css';
 @import 'glob/font.css';
+@import 'glob/scrollbar.css';
 
 @import 'shared/shared.css';
 

@@ -42,6 +42,7 @@
   
     text-wrap: nowrap;
 
+    
     font-family: 'Diastema regular';
     font-size: 6em;
     color: var(--foreground);
@@ -53,7 +54,7 @@
     height: 3px;
     background-color: var(--primary);
     box-shadow: 0 0 10px var(--primary);
-  }
+}
 
 .desc{
     padding-top: 20px;

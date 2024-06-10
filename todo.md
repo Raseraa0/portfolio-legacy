@@ -45,3 +45,6 @@ meilleur background? genre motif ou gros degradé de couleur jsp
 les compétence, faire en sorte que ca ressort comme si c'était en relief ??
 
 (intégrer boids ?)
+
+
+réfléchir a la coérence entre l'utilisation du francais et de l'anglais???

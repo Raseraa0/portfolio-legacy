@@ -16,7 +16,8 @@
 
 .projects-list{
     min-width: 800px;
-    margin: 0 200px;
+    margin-left: 100px ;
+    margin-right: 200px ;
 
     display: flex;
     flex-direction: column;
