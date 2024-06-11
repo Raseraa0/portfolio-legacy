@@ -11,22 +11,44 @@
 
 }
 
+
 .hero{
+    
     margin-top: 70px;
     flex-grow: 1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+
+.hero-centered{
+    padding: 80px 80px 0 80px;
+    background-color: var(--primary-foreground);
+    box-shadow: 0 0 20px var(--card-foreground);
+    
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    
+    width: 60%;
+    
+    transition: all 0.5s ease-in;
+    
 }
+
+.hero-centered:hover{
+    padding: 100px 100px 20px 100px;
+    box-shadow: 0 0 40px var(--card-foreground);
+}
+
 
 .present{
     align-self: center;
-
-    width: 70%;
+    
 
     display: flex;
-    gap: 30%;
+    justify-content: space-between;
 
 }
 
@@ -34,15 +56,14 @@
     display: flex;
     flex-direction: column;
     gap: 7%;
+
     width: 50%;
 }
 
 
-.prenom{
-  
+.prenom{  
     text-wrap: nowrap;
 
-    
     font-family: 'Diastema regular';
     font-size: 6em;
     color: var(--foreground);
@@ -80,7 +101,8 @@
     align-self: center;
     width: max(30%,400px);
     height: 150px;
-    
+    margin-top: 5%;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
