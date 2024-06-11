@@ -22,7 +22,6 @@
     align-items: center;
 }
 
-*{border: solid red 1px;}
 
 .hero-centered{
     padding: 80px 80px 0 80px;
@@ -47,7 +46,7 @@
 .present{
     align-self: center;
     
-
+    
     display: flex;
     justify-content: space-between;
 
