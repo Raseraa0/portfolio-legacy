@@ -14,9 +14,9 @@
     border-style: solid;
     border-width: 5px;
 
-    box-shadow: 10px 10px 5px var(--primary-foreground);
-
-    transition: translate 0.8s ease-out;
+    
+    transition: translate 0.8s ease-out,
+                box-shadow 0.1s ease-in-out;
 }
 
 .skill:hover{
@@ -40,13 +40,31 @@
 .skill1{
     background-color: var(--skill-1-a);
     border-color: var(--skill-1-b);
+    box-shadow: 15px 15px 10px var(--primary-foreground);
 }
 .skill2{
     background-color: var(--skill-2-a);
     border-color: var(--skill-2-b);
+    box-shadow: 15px 15px 10px var(--primary-foreground);
 }
 .skill3{
     background-color: var(--skill-3-a);
     border-color: var(--skill-3-b);
+    box-shadow: 15px 15px 10px var(--primary-foreground);
 }
+
+.skill1:hover{
+    box-shadow: 15px 15px 10px var(--primary-foreground),
+            0 0 30px var(--skill-1-a);
+}
+.skill2:hover{
+    box-shadow: 15px 15px 10px var(--primary-foreground),
+                0 0 30px var(--skill-2-a);
+}
+.skill3:hover{
+    box-shadow: 15px 15px 10px var(--primary-foreground),
+                0 0 30px var(--skill-3-a);
+}
+
+
 

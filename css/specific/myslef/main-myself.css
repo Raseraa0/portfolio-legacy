@@ -22,12 +22,13 @@
     align-items: center;
 }
 
+*{border: solid red 1px;}
 
 .hero-centered{
     padding: 80px 80px 0 80px;
     background-color: var(--primary-foreground);
     box-shadow: 0 0 20px var(--card-foreground);
-    
+
     display: flex;
     flex-direction: column;
     
