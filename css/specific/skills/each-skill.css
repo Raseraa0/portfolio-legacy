@@ -30,7 +30,8 @@
 }
 
 .skill img{
-    width: 100px;
+    width: 70%;
+    filter: drop-shadow(3px 3px 2px var(--primary-foreground));
 }
 
 .skill-more{
