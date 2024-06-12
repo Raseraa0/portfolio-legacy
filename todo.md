@@ -1,6 +1,6 @@
-faire la présentation "baclée" pour avoir un bon squelette efficace
 
-VOIR VIDEO(S) POUR CHAQUNE DES TRUC CI DESSOUS
+faire des animation partout
+
 
 réorganiser le code html et css, bon nom de variable etc
 

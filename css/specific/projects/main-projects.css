@@ -1,6 +1,6 @@
 
 .projects {
-    height: 100vh;
+    height: 100vh;    
 
     display: flex;
     flex-direction: row;
@@ -18,7 +18,9 @@
 }
 
 .projects-list{
+    /* TODO ce truc casse le responsive */
     min-width: 1200px;
+
     
     margin-left: 100px ;
     margin-right: 100px ;
