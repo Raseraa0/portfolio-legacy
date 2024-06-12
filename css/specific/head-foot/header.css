@@ -3,7 +3,7 @@ header{
     top: 0;
     align-self: center;   
 
-    width: 70%;
+    width: 60%;
     min-width: 600px;
     height: 40px;
 
@@ -12,7 +12,10 @@ header{
 
 }
 
+
 .nav-barre{
+
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,13 +23,12 @@ header{
 
 .nav{
     height: 100%;
-    width: 20%;
-
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: var(--secondary-foreground);
     text-shadow: 0 0 20px var(--primary-foreground);
 
@@ -43,7 +45,7 @@ header{
     position: relative;
     left: 0;
 
-    height: 5px;
+    height: 2px;
     width: 100%;
 
     margin-top: 5px;
@@ -51,6 +53,6 @@ header{
     box-shadow: 0 0 10px var(--primary);
     background-color: var(--primary);
 
-    transition: left 0.5s ease-in-out, width 0.5s ease-in-out;
+    transition: left 0.3s ease-in-out, width 0.3s ease-in-out;
 }
 

@@ -13,8 +13,14 @@ export function headerSetup() {
 
         nav.addEventListener('mouseenter', () => {
             
+            let num = parseInt(nav.dataset.num);
+            let offset = 0;
+            for (let i = 1 ; i < num ; i++){
+                offset += document.querySelector(`.nav${i}`).clientWidth;
+            }
+
             selecteur.style.width = `${nav.clientWidth}px`;
-            selecteur.style.left = `${nav.clientWidth * parseInt(nav.dataset.num)}px`;
+            selecteur.style.left = `${offset}px`;
         });
 
         nav.addEventListener('mouseleave', () => {
@@ -24,4 +30,22 @@ export function headerSetup() {
         });
     }
 
+    navSetup();
 }
+
+
+function navSetup(){
+
+    // Accueil
+
+    // A propos
+
+    // Projects
+
+    // Skills
+    
+    // Contact
+
+}
+
+

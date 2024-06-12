@@ -4,8 +4,6 @@ import { setDetails } from './details.js';
 
 
 
-
-
 function miseEnPlace() {
     headerSetup();
     setDetails();

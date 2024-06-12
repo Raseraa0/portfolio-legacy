@@ -48,3 +48,7 @@ les compétence, faire en sorte que ca ressort comme si c'était en relief ??
 
 
 réfléchir a la coérence entre l'utilisation du francais et de l'anglais???
+
+
+
+faire tout en plus petit ?? gene ca fait plus pros souvent

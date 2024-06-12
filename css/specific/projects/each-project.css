@@ -34,6 +34,8 @@
     background-color: var(--ring);
 }
 
+
+
 .project-name{
     margin-left: 40px;
     grid-column: 1/2;
@@ -53,7 +55,16 @@
     grid-row: 2/3;
 
 
+
+    line-height: 1em;
+
     font-size: 1.2em;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.project:hover .project-description{
+    line-height: 1.5em;
 }
 
 .project-preview{
