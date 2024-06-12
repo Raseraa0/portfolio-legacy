@@ -4,13 +4,12 @@
     display: flex;
     flex-direction: row-reverse;
 
+    color: var(--font-light);
+    
     background-image: url(../../../img/tons-bleus-arriere-plan-flou/OAK3ZW0.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
-
-
-    color: var(--font-light);
 }
 
 .skills-title{
@@ -18,8 +17,9 @@
 }
 
 .skills-list{
-    margin: 50px 5% 0 5% ;
     flex-grow: 1;
+    
+    margin: 50px 5% 0 5% ;
 
     display: flex;
     flex-direction: row;

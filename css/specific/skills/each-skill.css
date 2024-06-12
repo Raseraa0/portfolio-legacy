@@ -1,6 +1,8 @@
+
 .skill{
     width: 200px;
     height: 500px;
+
     padding: 0 15px;
 
     display: flex;
@@ -8,13 +10,11 @@
     align-items: center;
     justify-content: space-around;
 
-    color: black; /* TODO a changer ?*/
-
     border-radius: 20px;
-    
     border-style: solid;
     border-width: 5px;
-
+    
+    color: var(--primary-foreground);
     
     transition: translate 0.8s ease-out,
                 box-shadow 0.1s ease-in-out;
@@ -26,7 +26,6 @@
 
 .skill-name{
     font-size: 1.5em;
-    
     text-align: center;
 }
 
@@ -43,11 +42,13 @@
     border-color: var(--skill-1-b);
     box-shadow: 15px 15px 10px var(--primary-foreground);
 }
+
 .skill2{
     background-color: var(--skill-2-a);
     border-color: var(--skill-2-b);
     box-shadow: 15px 15px 10px var(--primary-foreground);
 }
+
 .skill3{
     background-color: var(--skill-3-a);
     border-color: var(--skill-3-b);
@@ -58,10 +59,12 @@
     box-shadow: 15px 15px 10px var(--primary-foreground),
             0 0 30px var(--skill-1-a);
 }
+
 .skill2:hover{
     box-shadow: 15px 15px 10px var(--primary-foreground),
                 0 0 30px var(--skill-2-a);
 }
+
 .skill3:hover{
     box-shadow: 15px 15px 10px var(--primary-foreground),
                 0 0 30px var(--skill-3-a);

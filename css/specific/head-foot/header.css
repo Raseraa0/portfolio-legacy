@@ -1,29 +1,28 @@
+
 header{
     position: absolute;
     top: 0;
+
     align-self: center;   
 
     width: 60%;
     min-width: 600px;
     height: 40px;
-
+    
     margin-top: 20px;
-
-
 }
 
-
 .nav-barre{
-
-
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 .nav{
-    height: 100%;
     flex-grow: 1;
+
+    height: 100%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,10 +46,11 @@ header{
 
     height: 2px;
     width: 100%;
-
+    
     margin-top: 5px;
 
     box-shadow: 0 0 10px var(--primary);
+    
     background-color: var(--primary);
 
     transition: left 0.3s ease-in-out, width 0.3s ease-in-out;

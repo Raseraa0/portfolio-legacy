@@ -1,7 +1,5 @@
 
-
 .project {
-
     width: 100%;
     height: 25%;
 
@@ -9,10 +7,11 @@
     grid-template-columns: 65% 35%;
     grid-template-rows: 50% 50%;
     
-    background-color: var(--muted-foreground);
     border-radius: 15px;
     
     color: var(--input);
+    
+    background-color: var(--muted-foreground);
     
     transition: all 1s ease-out,
                 background-color 1s ease-in-out,
@@ -21,43 +20,37 @@
                 height 0.4s ease-out;
 }
 
-
-
 .project:hover{
-    
     width: 105%;
     height: 35%;
 
-    box-shadow: 0 0 30px var(--ring);
-
     color: var(--primary-foreground);
+    
+    box-shadow: 0 0 30px var(--ring);
+    
     background-color: var(--ring);
 }
 
-
-
 .project-name{
-    margin-left: 40px;
     grid-column: 1/2;
     grid-row: 1/2;
 
-    font-size: 2em;
+    margin-left: 40px;
 
     display: flex;
     justify-items: center;
     align-items: center;
+    
+    font-size: 2em;
 }
 
-
 .project-description{
-    padding-left: 20px;
     grid-column: 1/2;
     grid-row: 2/3;
-
-
+    
+    padding-left: 20px;
 
     line-height: 1em;
-
     font-size: 1.2em;
 
     transition: all 0.5s ease-in-out;
@@ -68,12 +61,12 @@
 }
 
 .project-preview{
-
-    height: 100%;
     grid-column: 2/3;
     grid-row: 1/3;
     justify-self: center;
     align-self: center;
+
+    height: 100%;
 
     display: flex;
     flex-direction: column;
@@ -86,9 +79,11 @@
 }
 
 .project-plus{
+    padding: 7px;
+    
     font-size: 0.8em;
     text-align: center;
-    padding: 7px;
+    
     background-color: var(--card-foreground);
     
     border: solid 1px var(--card);
@@ -96,7 +91,7 @@
     cursor: pointer;
     
     transition: color 0.2s ease-in-out,
-    background-color 0.2s ease-in-out;
+                background-color 0.2s ease-in-out;
 }
 
 .project:hover .project-plus{
@@ -107,13 +102,14 @@
 .project:hover .project-plus:hover{
     color: var(--foreground);
     background-color: var(--accent);
-    
 }
 
 .project-img{
+    height: 70%;
+
     border: solid 1px var(--card);
     
     box-shadow: 0 0 10px var(--primary-foreground);
-    height: 70%;
+    
     transition: all 0.8s ease-in-out;
 }
