@@ -9,6 +9,11 @@
 
     position: relative;
 
+    background-image: url(../../../img/tons-bleus-arriere-plan-flou/OAK3ZW0.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+
 }
 
 
@@ -24,9 +29,15 @@
 
 
 .hero-centered{
+    background-image: url(../../../img/abstract-gradient-neon-lights.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+
+
     padding: 80px 80px 0 80px;
     background-color: var(--primary-foreground);
-    box-shadow: 0 0 20px var(--card-foreground);
+    box-shadow: 0 0 40px var(--ring);
 
     display: flex;
     flex-direction: column;
@@ -39,7 +50,7 @@
 
 .hero-centered:hover{
     padding: 100px 100px 20px 100px;
-    box-shadow: 0 0 40px var(--card-foreground);
+    box-shadow: 0 0 40px var(--ring);
 }
 
 
@@ -100,8 +111,8 @@
 .social-media{
     align-self: center;
     width: max(30%,400px);
-    height: 150px;
-    margin-top: 5%;
+    height: 30px;
+    margin: 5% 0;
 
     display: flex;
     flex-direction: row;
@@ -109,43 +120,24 @@
     align-items: center;
 }
 
+
 .media{
     display: flex;
     flex-direction: column;
     align-items: center;
-
-}
-
-.media-name {
-    margin-top: 10%;
-    width: 100%;
-    
-    text-align: center;
-}
-
-.media img {
-    width: 40px;
+    height: 100%;
     padding: 10px;
+
+    border-radius: 50%;
     
-    border: solid 2px var(--ring);
-    background-color: var(--secondary-foreground);
-    border-radius: 100%;
-
-    box-shadow: 0 0 10px var(--popover-foreground);
-
     cursor: pointer;
-
-    transition: box-shadow 0.5s 0.3s ease-in-out,
-                padding 1s ease-in-out,
-                width 1s ease-in-out;
-}
-
-
-
-.media img:hover {
     
-    padding: 20px;
-    width: 50px;
-    box-shadow: 0 0 25px var(--ring);
+    box-shadow: 0 0 30px var(--primary);
+    transition: box-shadow 0.3s  ease-in-out;
+    filter: invert();
+}
+    
 
+.media:hover{
+    box-shadow: 0 0 10px var(--primary-foreground);
 }

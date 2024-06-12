@@ -8,6 +8,8 @@ header{
     height: 40px;
 
     margin-top: 20px;
+
+
 }
 
 .nav-barre{
@@ -26,6 +28,7 @@ header{
 
     font-size: 1.5em;
     color: var(--secondary-foreground);
+    text-shadow: 0 0 20px var(--primary-foreground);
 
     cursor: pointer;
 

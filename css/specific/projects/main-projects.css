@@ -1,17 +1,22 @@
 .projects {
 
-    height: 700px;
+    height: 100vh;
 
     display: flex;
     flex-direction: row;
 
     background-color: var(--primary-foreground);
+    background-image: url(../../../img/abstract-gradient-neon-lights.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
 
     color: var(--secondary-foreground);
 }
 
+
 .projects-title{
     color: var(--ring);
+    /* text-shadow: 0 0 5px var(--ring); */
 }
 
 .projects-list{
@@ -24,3 +29,4 @@
     align-items: center;
     justify-content: space-evenly;
 }
+

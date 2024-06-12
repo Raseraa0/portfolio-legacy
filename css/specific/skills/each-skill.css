@@ -1,11 +1,12 @@
 .skill{
     width: 200px;
-    padding: 50px 15px;
+    height: 500px;
+    padding: 0 15px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10%;
+    justify-content: space-around;
 
     color: black; /* TODO a changer ?*/
 
@@ -20,7 +21,7 @@
 }
 
 .skill:hover{
-    translate: 0 -20px;
+    translate: 0 -50px;
 }
 
 .skill-name{
@@ -31,7 +32,6 @@
 
 .skill img{
     width: 70%;
-    filter: drop-shadow(3px 3px 2px var(--primary-foreground));
 }
 
 .skill-more{
