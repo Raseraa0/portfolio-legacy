@@ -6,10 +6,10 @@ Mettre des bouton quie permette de passer a la section suivante ( genre au lieu 
 */
 
 
-@import 'glob/color.css';
-@import 'glob/font.css';
+@import 'global/color.css';
+@import 'global/font.css';
 
-@import 'shared/shared.css';
+@import 'common/common.css';
 
 @import 'specific/myslef/main-myself.css';
 
