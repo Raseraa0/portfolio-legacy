@@ -1,43 +1,22 @@
 :root{
-    /* Couleur de fond */
-    --background: hsl(229 20% 20%);
-    /* Couleur du premier plan ou du texte principal */
-    --foreground: hsl(231 28% 73%);
-    /* Couleur atténuée ou discrète */
-    --muted: hsl(229 12% 24%);
-    /* Couleur du premier plan pour le texte atténué */
-    --muted-foreground: hsl(229 12% 74%);
-    /* Couleur des fenêtres contextuelles ou des popups */
-    --popover: hsl(229 20% 17%);
-    /* Couleur du premier plan pour les éléments des fenêtres contextuelles */
-    --popover-foreground: hsl(231 28% 83%);
-    /* Couleur des cartes ou des conteneurs similaires */
-    --card: hsl(229 20% 18%);
-    /* Couleur du premier plan pour les éléments dans les cartes */
-    --card-foreground: hsl(231 28% 78%);
-    /* Couleur des bordures */
-    --border: hsl(229 10% 25%);
-    /* Couleur des zones de saisie ou des éléments similaires */
-    --input: hsl(229 10% 28%);
-    /* Couleur principale ou couleur d'accentuation principale */
-    --primary: hsl(174 42% 65%);
-    /* Couleur du premier plan pour les éléments principaux */
-    --primary-foreground: hsl(174 42% 5%);
-    /* Couleur secondaire ou couleur d'accentuation secondaire */
-    --secondary: hsl(174 30% 25%);
-    /* Couleur du premier plan pour les éléments secondaires */
-    --secondary-foreground: hsl(174 30% 85%);
-    /* Couleur d'accentuation */
-    --accent: hsl(229 20% 35%);
-    /* Couleur du premier plan pour les éléments accentués */
-    --accent-foreground: hsl(229 20% 95%);
-    /* Couleur pour les actions destructrices ou de suppression */
-    --destructive: hsl(5 96% 45%);
-    /* Couleur pour les anneaux ou les mises en évidence */
-    --ring: hsl(174 42% 65%);
-    /* Couleur du premier plan pour les éléments destructifs */
-    --destructive-foreground: hsl(0 0% 100%);
+
+    --title:hsl(231 28% 73%);
+
+    --light-font: hsl(174 30% 85%);
+    --dark-font: hsl(174 42% 5%);
+    --muted-dark-font:hsl(229 10% 28%);
+
+    --dark-shadow:hsl(174 42% 5%);
+    --highlight:hsl(174 42% 65%);
+    --light-shadow:hsl(231 28% 83%);
     
+    --element: hsl(174 42% 65%);
+    --muted-element: hsl(229 12% 74%);
+    --muted-element-bis: hsl(231 28% 73%);
+    --dark-element:hsl(174 42% 5%);
+
+    --on-click-dark:hsl(229 20% 35%);
+
 
     --skill-1-a: #E54D2E;
     --skill-1-b: #6E2920;
@@ -45,6 +24,12 @@
     --skill-2-b: #20573E;
     --skill-3-a: #FFC53D;
     --skill-3-b: #8F6424;
+
+    
+
+
+
+
 
 
 }

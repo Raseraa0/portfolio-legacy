@@ -14,10 +14,10 @@
     border-style: solid;
     border-width: 5px;
     
-    color: var(--primary-foreground);
+    color: var(--dark-font);
     
     transition: translate 0.8s ease-out,
-                box-shadow 0.1s ease-in-out;
+                box-shadow 0.5s ease-in-out;
 }
 
 .skill:hover{
@@ -38,37 +38,38 @@
 }
 
 .skill1{
-    background-color: var(--skill-1-a);
+
+    background: linear-gradient( 30deg,var(--skill-1-b) -40%, var(--skill-1-a) 50%,var(--skill-1-b) 140%);
     border-color: var(--skill-1-b);
-    box-shadow: 15px 15px 10px var(--primary-foreground);
+    box-shadow: 15px 15px 10px var(--dark-shadow);
 }
 
 .skill2{
-    background-color: var(--skill-2-a);
+    background: linear-gradient( 30deg,var(--skill-2-b) -40%, var(--skill-2-a) 50%,var(--skill-2-b) 140%);
     border-color: var(--skill-2-b);
-    box-shadow: 15px 15px 10px var(--primary-foreground);
+    box-shadow: 15px 15px 10px var(--dark-shadow);
 }
 
 .skill3{
-    background-color: var(--skill-3-a);
+    background: linear-gradient( 30deg,var(--skill-3-b) -40%, var(--skill-3-a) 50%,var(--skill-3-b) 140%);
     border-color: var(--skill-3-b);
-    box-shadow: 15px 15px 10px var(--primary-foreground);
+    box-shadow: 15px 15px 10px var(--dark-shadow);
 }
 
-.skill1:hover{
-    box-shadow: 15px 15px 10px var(--primary-foreground),
+/* .skill1:hover{
+    box-shadow: 15px 15px 10px var(--dark-shadow),
             0 0 30px var(--skill-1-a);
 }
 
 .skill2:hover{
-    box-shadow: 15px 15px 10px var(--primary-foreground),
+    box-shadow: 15px 15px 10px var(--dark-shadow),
                 0 0 30px var(--skill-2-a);
 }
 
 .skill3:hover{
-    box-shadow: 15px 15px 10px var(--primary-foreground),
+    box-shadow: 15px 15px 10px var(--dark-shadow),
                 0 0 30px var(--skill-3-a);
-}
+} */
 
 
 

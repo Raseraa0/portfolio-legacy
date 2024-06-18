@@ -9,9 +9,9 @@
     
     border-radius: 15px;
     
-    color: var(--input);
+    color: var(--muted-dark-font);
     
-    background-color: var(--muted-foreground);
+    background-color: var(--muted-element);
     
     transition: all 1s ease-out,
                 background-color 1s ease-in-out,
@@ -24,11 +24,11 @@
     width: 105%;
     height: 35%;
 
-    color: var(--primary-foreground);
+    color: var(--dark-font);
     
-    box-shadow: 0 0 30px var(--ring);
+    box-shadow: 0 0 30px var(--highlight);
     
-    background-color: var(--ring);
+    background-color: var(--element);
 }
 
 .project-name{
@@ -75,7 +75,7 @@
 }
 
 .project:hover .project-img{
-    box-shadow: 0 0 20px var(--primary-foreground);
+    box-shadow: 0 0 20px var(--dark-shadow);
 }
 
 .project-plus{
@@ -83,10 +83,13 @@
     
     font-size: 0.8em;
     text-align: center;
+
+    color: var(--dark-font);
+    text-decoration: underline;
     
-    background-color: var(--card-foreground);
+    background-color: var(--muted-element-bis);
     
-    border: solid 1px var(--card);
+    border: solid 1px var(--dark-element);
     
     cursor: pointer;
     
@@ -96,20 +99,20 @@
 
 .project:hover .project-plus{
     color: var(--foreground);
-    background-color: var(--primary-foreground);
+    background-color: var(--dark-element);
 }
 
 .project:hover .project-plus:hover{
     color: var(--foreground);
-    background-color: var(--accent);
+    background-color: var(--on-click-dark);
 }
 
 .project-img{
     height: 70%;
 
-    border: solid 1px var(--card);
+    border: solid 1px var(--dark-element);
     
-    box-shadow: 0 0 10px var(--primary-foreground);
+    box-shadow: 0 0 10px var(--dark-shadow);
     
     transition: all 0.8s ease-in-out;
 }

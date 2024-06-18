@@ -32,7 +32,7 @@
     display: flex;
     flex-direction: column;
     
-    box-shadow: 0 0 40px var(--ring);
+    box-shadow: 0 0 40px var(--highlight);
     
     background-image: url(../../../img/background/teinte-violette.jpg);
     background-size: cover; 
@@ -44,7 +44,7 @@
 .hero-centered:hover{
     padding: 100px 100px 20px 100px;
 
-    box-shadow: 0 0 40px var(--ring);
+    box-shadow: 0 0 40px var(--highlight);
 }
 
 .present{
@@ -66,7 +66,7 @@
 .prenom{  
     text-wrap: nowrap;
 
-    color: var(--foreground);
+    color: var(--title);
     font-family: 'Diastema regular';
     font-size: 6em;
 }
@@ -77,9 +77,9 @@
     
     height: 3px;
     
-    background-color: var(--primary);
+    background-color: var(--element);
     
-    box-shadow: 0 0 10px var(--primary);
+    box-shadow: 0 0 10px var(--element);
 }
 
 .desc{
@@ -100,7 +100,7 @@
 
     border-radius: 50%;
 
-    box-shadow: 0 0 10px var(--popover-foreground);
+    box-shadow: 0 0 10px var(--light-shadow);
 }
 
 .social-media{
@@ -130,7 +130,7 @@
     
     cursor: pointer;
     
-    box-shadow: 0 0 30px var(--primary);
+    box-shadow: 0 0 30px var(--highlight);
     
     filter: invert();
     
@@ -138,5 +138,5 @@
 }
     
 .media:hover{
-    box-shadow: 0 0 10px var(--primary-foreground);
+    box-shadow: 0 0 10px var(--dark-shadow);
 }

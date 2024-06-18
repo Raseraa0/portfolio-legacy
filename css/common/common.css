@@ -9,12 +9,12 @@ body {
     display: flex;
     flex-direction: column;
 
-    color: var(--secondary-foreground);
+    color: var(--light-font);
     font-family: 'Urbanist';
 }
 
 a{
-    color: var(--secondary-foreground);
+    color: var(--light-font);
 }
 
 h2 {

@@ -9,7 +9,7 @@ footer{
     align-items: center;
     gap: 10%;
 
-    color: var(--secondary-foreground);
+    color: var(--light-font);
 
     background-image: url(../../../img/background/teinte-violette.jpg);
     background-size: cover; 
@@ -23,7 +23,6 @@ footer{
 }
 
 .footer-nav{
-    color: var(--secondary-foreground);
 
     cursor: pointer;
 
@@ -31,5 +30,5 @@ footer{
 }
 
 .footer-nav:hover{
-    text-shadow: 0 0 5px var(--ring);
+    text-shadow: 0 0 5px var(--highlight);
 }

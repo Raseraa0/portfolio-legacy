@@ -28,8 +28,8 @@ header{
     align-items: center;
 
     font-size: 1.2em;
-    color: var(--secondary-foreground);
-    text-shadow: 0 0 20px var(--primary-foreground);
+    color: var(--light-font);
+    text-shadow: 0 0 20px var(--dark-shadow);
 
     cursor: pointer;
 
@@ -37,7 +37,7 @@ header{
 }
 
 .nav:hover{
-    text-shadow: 0 0 10px var(--primary);
+    text-shadow: 0 0 10px var(--highlight);
 }
 
 .selecteur{
@@ -49,9 +49,9 @@ header{
     
     margin-top: 5px;
 
-    box-shadow: 0 0 10px var(--primary);
+    box-shadow: 0 0 10px var(--element);
     
-    background-color: var(--primary);
+    background-color: var(--element);
 
     transition: left 0.3s ease-in-out, width 0.3s ease-in-out;
 }
