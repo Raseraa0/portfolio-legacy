@@ -6,10 +6,8 @@
 
     color: var(--font-light);
     
-    background-image: url(../../../img/background/teinte-bleue.jpg);
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
+    
+    background: var(--background-1);
 }
 
 .skills-title{

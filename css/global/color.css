@@ -2,6 +2,7 @@
 
     --title:hsl(231 28% 73%);
 
+
     --light-font: hsl(174 30% 85%);
     --dark-font: hsl(174 42% 5%);
     --muted-dark-font:hsl(229 10% 28%);
@@ -26,10 +27,17 @@
     --skill-3-b: #8F6424;
 
     
+    --background-1: radial-gradient(circle, rgba(40,50,90,0.7), rgba(30,40,70,0.9)),
+    linear-gradient(217deg, rgba(40,50,90,0.9), rgba(40,50,90,0) 70.71%),
+    linear-gradient(127deg, rgba(35,45,80,0.9), rgba(35,45,80,0) 70.71%),
+    linear-gradient(336deg, rgba(30,40,70,0.9), rgba(30,40,70,0) 70.71%);
+    
+    
+    --background-2: radial-gradient(circle, rgba(10,20,40,0.9), rgba(5,10,25,0.95)),
+    linear-gradient(217deg, rgba(10,20,40,0.95), rgba(10,20,40,0) 70.71%),
+    linear-gradient(127deg, rgba(5,15,30,0.95), rgba(5,15,30,0) 70.71%),
+    linear-gradient(336deg, rgba(5,10,25,0.95), rgba(5,10,25,0) 70.71%);
 
-
-
-
-
+    --background-3: linear-gradient(90deg, rgb(10,20,50),rgb(7, 13, 32),rgb(10,20,50));
 
 }

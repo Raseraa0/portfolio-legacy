@@ -1,4 +1,7 @@
 
+//TODO mettre des dégradé a la main plutot que des image de dégradé ??? pcq la ca met du temps a générer
+
+
 faire des animation partout
 
 

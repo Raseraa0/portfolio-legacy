@@ -11,9 +11,8 @@ footer{
 
     color: var(--light-font);
 
-    background-image: url(../../../img/background/teinte-violette.jpg);
-    background-size: cover; 
-    background-repeat: no-repeat;
+    
+    background: var(--background-3);
 }
 
 .footer-all-navs{
