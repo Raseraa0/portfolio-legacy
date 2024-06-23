@@ -1,7 +1,7 @@
 
 body {
     width: 100%;
-    min-width: 1250px;
+    min-width: 1850px;
     
     margin: 0;
     padding: 0;
@@ -31,4 +31,18 @@ h2 {
 
 h3 {
     font-family: 'Diastema Regular';
+}
+
+.background-style-1{
+    background: var(--background-1);
+    background-image: url(../../../img/background/teinte-bleue.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.background-style-2{
+    background: var(--background-1);
+    background-image: url(../../../img/background/teinte-violette.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
 }
