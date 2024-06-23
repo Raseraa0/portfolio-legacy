@@ -1,15 +1,14 @@
 #section-myself {
-  /* TODO util ? */
   position: relative;
 
   height: 100vh;
-  min-height: 650px;
 
   display: flex;
   flex-direction: column;
 }
 
 #hero {
+
   flex-grow: 1;
 
   margin-top: 10%;

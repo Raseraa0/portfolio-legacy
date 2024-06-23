@@ -23,3 +23,5 @@ Mettre des bouton quie permette de passer a la section suivante ( genre au lieu 
 @import 'specific/head-foot/header.css';
 @import 'specific/head-foot/footer.css';
 
+@import 'responsive/headerRes.css';
+@import 'responsive/myselfRes.css';

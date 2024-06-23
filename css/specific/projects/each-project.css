@@ -1,6 +1,6 @@
 .project {
   width: 100%;
-  height: 25%;
+  height: 20%;
 
   display: grid;
   grid-template-columns: 65% 35%;
@@ -47,6 +47,8 @@
   grid-row: 2/3;
 
   padding-left: 20px;
+
+  width: 90%;
 
   line-height: 1em;
   font-size: 1.2em;

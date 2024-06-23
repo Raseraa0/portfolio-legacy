@@ -1,0 +1,38 @@
+/* TODO CHECK TOUT LES RESPONSIVE TRANSITON EST CE QUE C FLUIDE  */
+
+
+#hero-centered{
+    margin: 0 100px;
+}
+
+@media screen and (max-width: 1200px) {
+    #presentation{
+        flex-direction: column;
+    }
+    
+    #presentation-text{
+        width: 100%;
+    }
+
+    #prenom{
+        font-size: 4em;
+        text-align: center;
+    }
+
+    #desc{
+        font-size: 1em;
+    }
+
+    #profil-picture{
+        margin-top: 50px;
+        width: 180px;
+    }
+
+    #social-media{
+        height: 30px;
+    }   
+}
+
+@media screen and (max-width: 700px) {
+
+}

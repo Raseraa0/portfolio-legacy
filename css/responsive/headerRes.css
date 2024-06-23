@@ -1,0 +1,17 @@
+header {
+  width: 800px;
+
+  transition: width 0.5s ease-in;
+}
+
+@media screen and (max-width: 1200px) {
+    header{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header{
+        width: 100%;
+    }
+}
