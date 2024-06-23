@@ -8,6 +8,7 @@ Mettre des bouton quie permette de passer a la section suivante ( genre au lieu 
 
 @import 'global/color.css';
 @import 'global/font.css';
+@import 'global/background.css';
 
 @import 'common/common.css';
 

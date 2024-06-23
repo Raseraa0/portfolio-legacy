@@ -15,7 +15,7 @@
 
   color: var(--dark-font);
 
-  box-shadow: 15px 15px 10px 0px var(--dark-shadow);
+  box-shadow: 15px 15px 10px 0px var(--dark-shadow-transparent);
 
   transition: all 0.8s ease-out;
 }
@@ -24,7 +24,7 @@
 .skill:hover {
   translate: -10px -10px;
   scale: 105%;
-  box-shadow: 15px 15px 13px 13px var(--dark-shadow);
+  box-shadow: 15px 15px 13px 13px var(--dark-shadow-transparent);
 }
 
 .skill-name {

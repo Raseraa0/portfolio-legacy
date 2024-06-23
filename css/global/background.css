@@ -1,0 +1,8 @@
+:root {
+    --background-1:
+     repeating-linear-gradient(45deg, rgba(206,207,168, 0.03) 0px, rgba(206,207,168, 0.03) 1px,transparent 1px, transparent 11px,rgba(206,207,168, 0.03) 11px, rgba(206,207,168, 0.03) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, rgba(206,207,168, 0.03) 0px, rgba(206,207,168, 0.03) 1px,transparent 1px, transparent 11px,rgba(206,207,168, 0.03) 11px, rgba(206,207,168, 0.03) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, rgba(206,207,168, 0.03) 0px, rgba(206,207,168, 0.03) 1px,transparent 1px, transparent 11px,rgba(206,207,168, 0.03) 11px, rgba(206,207,168, 0.03) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, rgba(206,207,168, 0.03) 0px, rgba(206,207,168, 0.03) 1px,transparent 1px, transparent 11px,rgba(206,207,168, 0.03) 11px, rgba(206,207,168, 0.03) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(29,21,96),rgb(47,1,51));
+
+     --background-2:
+
+
+}
