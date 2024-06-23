@@ -1,24 +1,21 @@
-.skills{
-    height: 100vh;
+#section-skills {
+  height: 100vh;
 
-    display: flex;
-    flex-direction: row-reverse;
-
-    
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-.skills-title{
-    color: var(--dark-font);
+#skills-title {
+  color: var(--dark-font);
 }
 
-.skills-list{
-    flex-grow: 1;
-    
-    margin: 50px 5% 0 5% ;
+#skills-list {
+  flex-grow: 1;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+  margin: 50px 5% 0 5%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
-

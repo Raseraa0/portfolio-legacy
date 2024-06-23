@@ -1,20 +1,19 @@
 @font-face {
-    font-family: 'Diastema regular';
-    src: url('../../font/diastema/Diastema\ Regular.ttf') format('truetype');
+  font-family: "Diastema regular";
+  src: url("../../font/diastema/Diastema\ Regular.ttf") format("truetype");
 }
 @font-face {
-    font-family: 'Rubik regular';
-    src: url('../../font/rubik/Rubik-Regular.ttf') format('truetype');
+  font-family: "Rubik regular";
+  src: url("../../font/rubik/Rubik-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Geist';
-    src: url('../../font/Geist-1.3.0/Geist-1.3.0/statics-ttf/Geist-Regular.ttf') format('truetype');
+  font-family: "Geist";
+  src: url("../../font/Geist-1.3.0/Geist-1.3.0/statics-ttf/Geist-Regular.ttf")
+    format("truetype");
 }
-
 
 @font-face {
-    font-family: 'Urbanist';
-    src: url('../../font/Urbanist/static/Urbanist-Regular.ttf') format('truetype');
+  font-family: "Urbanist";
+  src: url("../../font/Urbanist/static/Urbanist-Regular.ttf") format("truetype");
 }
-

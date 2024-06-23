@@ -1,32 +1,28 @@
+footer {
+  height: 40px;
+  width: 100%;
 
-footer{
-    height: 40px;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10%;
-
-    color: var(--light-font);
-
-
+  color: var(--light-font);
 }
 
-.footer-all-navs{
-    display: flex;
-    flex-direction: row;
-    gap: 30%;
+#footer-all-navs {
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
 }
 
-.footer-nav{
+.footer-nav {
+  cursor: pointer;
 
-    cursor: pointer;
-
-    transition: text-shadow 0.3s ease-in-out;
+  transition: text-shadow 0.3s ease-in-out;
 }
 
-.footer-nav:hover{
-    text-shadow: 0 0 5px var(--highlight);
+.footer-nav:hover {
+  text-shadow: 0 0 5px var(--highlight);
 }
