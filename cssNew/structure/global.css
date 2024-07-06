@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* *{outline: solid blue 3px;} */
+
+.background-style-1 {
+  background: var(--background-1);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.background-style-2 {
+  background: var(--background-2);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.fullscreen {
+  min-height: 100vh;
+}
+
+body {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* img {
+  width: 100px;
+} */

@@ -1,0 +1,144 @@
+header {
+  background-color: red;
+}
+#navigation-barre {
+  background-color: grey;
+}
+.nav {
+  background-color: orange;
+  outline: solid green 1px;
+}
+#navigation-selecteur {
+  background-color: aqua;
+}
+
+#hero {
+  background-color: lightslategray;
+}
+#hero-centered {
+  background-color: lightblue;
+}
+#presentation {
+  background-color: lightgreen;
+}
+#presentation-text {
+  background-color: lightcoral;
+}
+#prenom {
+  background-color: lightpink;
+}
+#prenom-barre {
+  background-color: red;
+}
+#desc {
+  background-color: lightseagreen;
+}
+#profil-picture {
+  background-color: lightgray;
+}
+#social-media {
+  background-color: lightgoldenrodyellow;
+}
+#media-1 {
+  background-color: lightsteelblue;
+}
+#media-2 {
+  background-color: lightcyan;
+}
+.media {
+  outline: solid darkgray 1px;
+}
+
+#projects-title {
+  background-color: lightblue;
+}
+#projects-list {
+  background-color: lightgreen;
+}
+.project {
+  background-color: lightcoral;
+}
+.project-name {
+  background-color: lightpink;
+}
+.project-img {
+  background-color: red;
+}
+.project-plus {
+  background-color: lightseagreen;
+}
+.project-preview {
+  background-color: lightgray;
+}
+.project-description {
+  background-color: lightgoldenrodyellow;
+}
+
+#skills-title {
+  background-color: lightblue;
+}
+#skills-list {
+  background-color: lightgreen;
+}
+.skill {
+  background-color: lightcoral;
+}
+.skill-name {
+  background-color: lightpink;
+}
+.skill-img {
+  background-color: red;
+}
+.skill-more {
+  background-color: lightseagreen;
+}
+
+.skill-infos {
+  background-color: blue;
+}
+
+footer {
+  background-color: darkgray;
+}
+
+#footer-name {
+  background-color: lightblue;
+}
+#footer-all-navs {
+  background-color: lightgreen;
+}
+.footer-nav {
+  background-color: lightcoral;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section-myself {
+  background-color: blue;
+}
+#section-projects {
+  background-color: green;
+}
+#section-skills {
+  background-color: orange;
+}
+
+footer {
+  background-color: purple;
+}

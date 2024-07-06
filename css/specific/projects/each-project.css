@@ -15,7 +15,7 @@
   box-shadow: 0 0 5px 1px var(--dark-shadow);
 
   transition: all 1s ease-out, background-color 1s ease-in-out,
-    color 0.5s ease-in-out, width 0.4s ease-in, height 0.4s ease-out;
+    color 0.5s ease-in-out, width 1s ease-in, height 1s ease-out;
 }
 
 .project:hover {
@@ -52,6 +52,8 @@
 
   line-height: 1em;
   font-size: 1.2em;
+  overflow: hidden;           /* Cache tout contenu qui dépasse */
+  text-overflow: ellipsis;
 
   transition: all 0.5s ease-in-out;
 }
@@ -115,3 +117,4 @@
 
   transition: all 0.8s ease-in-out;
 }
+

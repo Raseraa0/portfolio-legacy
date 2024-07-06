@@ -1,0 +1,130 @@
+#section-myself {
+  display: flex;
+  flex-direction: column;
+}
+
+#hero {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero-centered {
+  width: 85%;
+    margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#presentation-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#prenom-barre {
+  height: 3px;
+}
+
+#profil-picture {
+  width: 150px;
+  border-radius: 50%;
+  margin: 10% 0 20% 0;
+}
+
+#prenom {
+  font-size: 2em;
+  text-wrap: nowrap;
+}
+
+#social-media {
+  align-self: center;
+  width: 70%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.media {
+  width: 30px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+
+  #hero-centered {
+    width: 75%;
+  }
+
+  #profil-picture {
+    width: 200px;
+  }
+
+  #prenom {
+    font-size: 4em;
+  }
+  #desc{
+    font-size: 1.2em;
+}
+
+  #social-media {
+    width: 50%;
+  }
+
+  .media {
+    width: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+    #hero-centered {
+      width: 75%;
+    }
+  
+    #presentation{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #presentation-text{
+        width: 50%;
+    }
+
+    #profil-picture {
+      width: 250px;
+      margin: 10% 0 ;
+    }
+  
+    #prenom {
+      font-size: 5em;
+    }
+
+    #desc{
+        font-size: 1.5em;
+    }
+  
+    #social-media {
+      width: 50%;
+    }
+  
+    .media {
+      width: 30px;
+    }
+  }
+  
+@media screen and (min-width: 1500px) {
+
+  #prenom{
+    font-size: 6em;
+  }
+}

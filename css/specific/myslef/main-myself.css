@@ -1,8 +1,6 @@
 #section-myself {
   position: relative;
 
-  height: 100vh;
-
   display: flex;
   flex-direction: column;
 }
@@ -84,7 +82,7 @@
   width: max(30%, 400px);
   height: 40px;
 
-  margin-top: 15%;
+  margin-top: 100px;
 
   display: flex;
   flex-direction: row;

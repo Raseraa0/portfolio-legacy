@@ -10,6 +10,9 @@ Mettre des bouton quie permette de passer a la section suivante ( genre au lieu 
 @import 'global/font.css';
 @import 'global/background.css';
 
+
+
+/* 
 @import 'common/common.css';
 
 @import 'specific/myslef/main-myself.css';
@@ -22,6 +25,13 @@ Mettre des bouton quie permette de passer a la section suivante ( genre au lieu 
 
 @import 'specific/head-foot/header.css';
 @import 'specific/head-foot/footer.css';
+ */
 
-@import 'responsive/headerRes.css';
-@import 'responsive/myselfRes.css';
+
+ @import '../cssNew/structure/global.css';
+ @import '../cssNew/structure/header.css';
+ @import '../cssNew/structure/myself.css';
+ @import '../cssNew/structure/projects.css';
+ @import '../cssNew/structure/skills.css';
+ @import '../cssNew/structure/footer.css';
+ @import '../cssNew/tempcouleur.css';

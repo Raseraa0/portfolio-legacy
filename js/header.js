@@ -3,11 +3,10 @@ export function headerSetup() {
   selecteur.style.borderRadius = `${selecteur.clientHeight / 2}px`;
 
   let navs = document.getElementsByClassName("nav");
-
   for (let nav of navs) {
     nav.addEventListener("mouseenter", () => {
       let num = parseInt(nav.dataset.num);
-      let offset = 0;
+      let offset = document.getElementById('navigation-barre').offsetLeft;
       for (let i = 1; i < num; i++) {
         offset += document.getElementById(`nav-${i}`).clientWidth;
       }

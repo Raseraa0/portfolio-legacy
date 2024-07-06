@@ -1,162 +1,170 @@
-
 <!-- //TODO TOUT REFAIRE ????????????????
 DEMANDER A CHAT GPT GENRE ??? -->
 
-
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Arthur Rasera - portffolio</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="StyleSheet" href="css/style.css" type="text/css" />
     <script src="js/global.js" type="module"></script>
-</head>
+  </head>
 
-<!-- TODO probleme de wallpaper qui convre pas tout -->
-<body class="background-style-1">
+  <!-- TODO probleme de wallpaper qui convre pas tout -->
+  <body class="background-style-1">
     <section id="section-myself" class="fullscreen">
-        <header>
-            <div id="navigation-barre">
-                <div data-num="1" id="nav-1" class="nav">Accueil</div>
-                <div data-num="2" id="nav-2" class="nav">A propos</div>
-                <div data-num="3" id="nav-3" class="nav">Projects</div>
-                <div data-num="4" id="nav-4" class="nav">Skills</div>
-                <div data-num="5" id="nav-5" class="nav">Contact</div>
-            </div>
-            <div id="navigation-selecteur"></div>
-        </header>
-
-        <div id="hero">
-            <div id="hero-centered">
-                <div id="presentation">
-                    <div id="presentation-text">
-                        <div id="prenom">Arthur Rasera</div>
-                        <div id="prenom-barre"></div>
-                        <div id="desc">
-                            Étudiant de 4ème année à l'
-                            <a title="École Nationale Supérieur d'Informatique et de Mathématiques appliquées"
-                                href="https://ensimag.grenoble-inp.fr/">ENSIMAG</a>
-                            je me spécialise en développement logiciel et dans
-                            l'intelligence artificielle.
-                        </div>
-                    </div>
-                    <img id="profil-picture" src="img/selfie_v1.jpg" alt="arthur's picture" />
-                </div>
-
-                <div id="social-media">
-                    <img id="media-1" class="media" src="img/logos/linkedin.png" alt="" />
-                    <img id="media-2" class="media" src="img/logos/github.png" alt="" />
-                </div>
-            </div>
+      <header>
+        <div id="navigation-barre">
+          <div data-num="1" id="nav-1" class="nav">Accueil</div>
+          <div data-num="2" id="nav-2" class="nav">A propos</div>
+          <div data-num="3" id="nav-3" class="nav">Projects</div>
+          <div data-num="4" id="nav-4" class="nav">Skills</div>
+          <div data-num="5" id="nav-5" class="nav">Contact</div>
         </div>
+        <div id="navigation-selecteur"></div>
+      </header>
+
+      <div id="hero">
+        <div id="hero-centered">
+          <div id="presentation">
+            <div id="presentation-text">
+              <div id="prenom">Arthur Rasera</div>
+              <div id="prenom-barre"></div>
+              <div id="desc">
+                Étudiant de 4ème année à l'
+                <a
+                  title="École Nationale Supérieur d'Informatique et de Mathématiques appliquées"
+                  href="https://ensimag.grenoble-inp.fr/"
+                  >ENSIMAG</a
+                >
+                je me spécialise en développement logiciel et dans
+                l'intelligence artificielle.
+              </div>
+            </div>
+            <img
+              id="profil-picture"
+              src="img/selfie_v1.jpg"
+              alt="arthur's picture"
+            />
+          </div>
+
+          <div id="social-media">
+            <img
+              id="media-1"
+              class="media"
+              src="img/logos/linkedin.png"
+              alt=""
+            />
+            <img id="media-2" class="media" src="img/logos/github.png" alt="" />
+          </div>
+        </div>
+      </div>
     </section>
+
+    <!-- Mettre trois projets principaux et tout les autres en annexes genre -->
 
     <section id="section-projects" class="fullscreen">
-        <h2 id="projects-title">Projets</h2>
+      <h2 id="projects-title">Projets</h2>
 
-        <div id="projects-list">
-            <div id="project-1" class="project">
-                <h3 class="project-name">Wallpaper generator</h3>
-                <a href="projects/wallpaper-generator/" class="project-preview">
-                    <img class="project-img" src="img/projects/Wallpaper5.png" alt="" />
-                    <div class="project-plus">En savoir plus</div>
-                </a>
+      <div id="projects-list">
+        <div id="project-1" class="project">
+          <h3 class="project-name">Wallpaper generator</h3>
 
-                <div class="project-description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque enim
-                    exercitationem aliquid in! Similique voluptate harum natus unde.
-                    Quis odio assumenda earum repudiandae nostrum eligendi inventore
-                    illo hic labore voluptatum.
-                </div>
-            </div>
-
-            <div id="project-2" class="project">
-                <h3 class="project-name">Game of life</h3>
-                <a href="projects/game-of-life/" class="project-preview">
-                    <img class="project-img" src="img/projects/GameOfLife.jpg" alt="" />
-                    <div class="project-plus">En savoir plus</div>
-                </a>
-                <div class="project-description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque enim
-                    exercitationem aliquid in! Similique voluptate harum natus unde.
-                    Quis odio assumenda earum repudiandae nostrum eligendi inventore
-                    illo hic labore voluptatum.
-                </div>
-            </div>
-
-            <div id="project-3" class="project">
-                <h3 class="project-name">Boids Simulation</h3>
-                <a href="projects/boids-simulation/" class="project-preview">
-                    <img class="project-img" src="img/projects/boids.png" alt="" />
-                    <div class="project-plus">En savoir plus</div>
-                </a>
-                <div class="project-description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque enim
-                    exercitationem aliquid in! Similique voluptate harum natus unde.
-                    Quis odio assumenda earum repudiandae nostrum eligendi inventore
-                    illo hic labore voluptatum.
-                </div>
-            </div>
+          <a href="projects/wallpaper-generator/" class="project-preview">
+            <img class="project-img" src="img/projects/Wallpaper5.png" alt="" />
+            <div class="project-plus">En savoir plus</div>
+          </a>
+          <div class="project-description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque enim
+            exercitationem aliquid in! Similique voluptate harum natus unde.
+            Quis odio assumenda earum repudiandae nostrum eligendi inventore
+            illo hic labore voluptatum.
+          </div>
         </div>
+
+        <div id="project-2" class="project">
+          <h3 class="project-name">Game of life</h3>
+          <a href="projects/game-of-life/" class="project-preview">
+            <img class="project-img" src="img/projects/GameOfLife.jpg" alt="" />
+            <div class="project-plus">En savoir plus</div>
+          </a>
+          <div class="project-description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque enim
+            exercitationem aliquid in! Similique voluptate harum natus unde.
+            Quis odio assumenda earum repudiandae nostrum eligendi inventore
+            illo hic labore voluptatum.
+          </div>
+        </div>
+
+        <div id="project-3" class="project">
+          <h3 class="project-name">Boids Simulation</h3>
+          <a href="projects/boids-simulation/" class="project-preview">
+            <img class="project-img" src="img/projects/boids.png" alt="" />
+            <div class="project-plus">En savoir plus</div>
+          </a>
+          <div class="project-description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque enim
+            exercitationem aliquid in! Similique voluptate harum natus unde.
+            Quis odio assumenda earum repudiandae nostrum eligendi inventore
+            illo hic labore voluptatum.
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- <section id="section-skills" class="fullscreen">
-        <h2 id="skills-title">Skills</h2>
+    <section id="section-skills" class="fullscreen">
+      <h2 id="skills-title">Skills</h2>
 
-        <div id="skills-list">
-            <div id="skill-1" class="skill">
-                <div class="skill-name">Web développement</div>
-                <img src="img/logos/devweb.png" alt="" />
-                <div class="skill-more">
-                    Je maîtrise les technologies de développement web modernes, incluant
-                    HTML, CSS, et JavaScript pour la création d'interfaces utilisateurs
-                    réactives et dynamiques. J'ai également de l'expérience avec des
-                    frameworks tels que React et Angular, ainsi que des outils de
-                    développement backend comme Node.js et Express.
-                </div>
+      <div id="skills-list">
+        <div id="skill-1" class="skill">
+          <div class="skill-name">Web développement</div>
+          <div class="skill-infos">
+            <img class="skill-img" src="img/logos/devweb.png" alt="" />
+            <div class="skill-more">
+              Je maîtrise les technologies de développement web modernes,
+              incluant HTML, CSS, et JavaScript pour la création d'interfaces
+              utilisateurs réactiv
             </div>
-
-            <div id="skill-2" class="skill">
-                <div class="skill-name">Intelligence Artificielle</div>
-                <img src="img/logos/ai.png" alt="" />
-                <div class="skill-more">
-                    Je possède des compétences solides en intelligence artificielle,
-                    couvrant des domaines tels que l'apprentissage supervisé et non
-                    supervisé, le traitement du langage naturel, et les réseaux de
-                    neurones profonds. J'ai travaillé avec des bibliothèques populaires
-                    comme TensorFlow et PyTorch pour développer et déployer des modèles
-                    AI complexes.
-                </div>
-            </div>
-
-            <div id="skill-3" class="skill">
-                <div class="skill-name">Java</div>
-                <img src="img/logos/java.png" alt="" />
-                <div class="skill-more">
-                    Fort d'une expérience de plusieurs années avec Java, je suis
-                    compétent dans la programmation orientée objet, la gestion des
-                    exceptions, et le développement d'applications robustes et
-                    performantes. J'ai travaillé sur divers projets, incluant des
-                    applications de bureau et des systèmes distribués, en utilisant des
-                    frameworks comme Spring et Hibernate.
-                </div>
-            </div>
+          </div>
         </div>
-    </section> -->
+
+        <div id="skill-2" class="skill">
+          <div class="skill-name">Intelligence Artificielle</div>
+          <div class="skill-infos">
+            <img class="skill-img" src="img/logos/ai.png" alt="" />
+            <div class="skill-more">
+              Je possède des compétences solides en intelligence artificielle,
+              couvrant des domaines tels que l'apprentissage supervisé et non
+              supervisé,
+            </div>
+          </div>
+        </div>
+
+        <div id="skill-3" class="skill">
+          <div class="skill-name">Java</div>
+          <div class="skill-infos">
+            <img class="skill-img" src="img/logos/java.png" alt="" />
+            <div class="skill-more">
+              Fort d'une expérience de plusieurs années avec Java, je suis
+              compétent dans la programmation orientée objet, la gestion des
+              exceptions,
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- <section class="send-mail">
 
-    </section> -->
+    </section>  -->
 
-    <!-- <footer class="background-style-2">
-        <div id="footer-name">Arthur Rasera</div>
+    <footer class="background-style-2">
+      <div id="footer-name">Arthur Rasera</div>
         <div id="footer-all-navs">
             <div class="footer-nav">LinkedIn</div>
             <div class="footer-nav">GitHub</div>
         </div>
-    </footer> -->
-</body>
-
+    </footer>
+  </body>
 </html>
