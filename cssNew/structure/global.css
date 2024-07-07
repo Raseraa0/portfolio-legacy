@@ -3,8 +3,6 @@
   padding: 0;
 }
 
-/* *{outline: solid blue 3px;} */
-
 .background-style-1 {
   background: var(--background-1);
   background-attachment: fixed;
@@ -27,7 +25,3 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-/* img {
-  width: 100px;
-} */

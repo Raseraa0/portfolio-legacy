@@ -1,37 +1,35 @@
-
 #navigation-barre {
-    width: 100%;
-    height: 40px;
+  width: 100%;
+  height: 40px;
 
-    margin: auto;
+  margin: auto;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .nav {
-    flex-grow: 1;
+  flex-grow: 1;
 
-    text-align: center;
-    font-size: 1.2em;
+  text-align: center;
+  font-size: 1.2em;
 }
 
 #navigation-selecteur {
-    position: relative;
-    left: 0;
-    height: 3px;
-    width: 100%;
+  position: relative;
+  left: 0;
+  height: 3px;
+  width: 100%;
 }
 
-@media  screen and (min-width: 768px)  {
-  #navigation-barre{
+@media screen and (min-width: 768px) {
+  #navigation-barre {
     width: 80%;
   }
 }
 
-
-@media  screen and (min-width: 1024px)  {
-  #navigation-barre{
+@media screen and (min-width: 1024px) {
+  #navigation-barre {
     width: 60%;
   }
 }
