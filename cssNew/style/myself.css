@@ -1,0 +1,36 @@
+#hero-centered {
+  transition: all 0.5s ease-in;
+}
+
+#prenom {
+  color: var(--title);
+  font-family: "Diastema regular";
+}
+
+#prenom-barre {
+  background-color: var(--element);
+
+  box-shadow: 0 0 10px var(--element);
+}
+
+#profil-picture {
+  border-radius: 50%;
+
+  box-shadow: 0 0 10px var(--light-shadow);
+}
+
+.media {
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  box-shadow: 0 0 30px var(--highlight);
+
+  filter: invert();
+
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.media:hover {
+  box-shadow: 0 0 10px var(--dark-shadow);
+}

@@ -1,0 +1,68 @@
+#projects-title {
+  color: var(--title);
+  /* text-shadow: 0 0 5px var(--title); */
+}
+
+#projects-list {
+  transition: margin 0.3s ease-in-out;
+}
+
+.project {
+  border-radius: 15px;
+
+  color: var(--muted-dark-font);
+
+  background-color: var(--muted-element);
+
+  box-shadow: 0 0 5px 1px var(--dark-shadow);
+
+  transition: all 1s ease-out, background-color 1s ease-in-out,
+    color 0.5s ease-in-out, width 1s ease-in, height 1s ease-out;
+}
+
+.project:hover {
+  color: var(--dark-font);
+
+  box-shadow: 0 0 30px var(--highlight);
+
+  background-color: var(--element);
+}
+
+.project-description {
+  transition: all 0.5s ease-in-out;
+}
+
+.project-plus {
+  color: var(--dark-font);
+  text-decoration: underline;
+
+  background-color: var(--muted-element-bis);
+
+  border: solid 1px var(--dark-element);
+
+  cursor: pointer;
+
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.project:hover .project-plus {
+  color: var(--foreground);
+  background-color: var(--dark-element);
+}
+
+.project:hover .project-plus:hover {
+  color: var(--foreground);
+  background-color: var(--on-click-dark);
+}
+
+.project-img {
+  border: solid 1px var(--dark-element);
+
+  box-shadow: 0 0 10px var(--dark-shadow);
+
+  transition: all 0.8s ease-in-out;
+}
+
+.project:hover .project-img {
+  box-shadow: 0 0 20px var(--dark-shadow);
+}

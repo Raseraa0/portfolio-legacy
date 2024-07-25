@@ -3,18 +3,6 @@
   padding: 0;
 }
 
-.background-style-1 {
-  background: var(--background-1);
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.background-style-2 {
-  background: var(--background-2);
-  background-attachment: fixed;
-  background-size: cover;
-}
-
 .fullscreen {
   min-height: 100vh;
 }

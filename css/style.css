@@ -24,14 +24,24 @@ Mettre des bouton quie permette de passer a la section suivante ( genre au lieu 
 @import 'specific/skills/each-skill.css';
 
 @import 'specific/head-foot/header.css';
-@import 'specific/head-foot/footer.css';
- */
+@import 'specific/head-foot/footer.css'; */
 
 
- @import '../cssNew/structure/global.css';
- @import '../cssNew/structure/header.css';
- @import '../cssNew/structure/myself.css';
- @import '../cssNew/structure/projects.css';
- @import '../cssNew/structure/skills.css';
- @import '../cssNew/structure/footer.css';
- @import '../cssNew/tempcouleur.css';
+
+@import '../cssNew/structure/global.css';
+@import '../cssNew/structure/header.css';
+@import '../cssNew/structure/myself.css';
+@import '../cssNew/structure/projects.css';
+@import '../cssNew/structure/skills.css';
+@import '../cssNew/structure/footer.css';
+
+
+@import '../cssNew/style/global.css';
+@import '../cssNew/style/header.css';
+@import '../cssNew/style/myself.css';
+@import '../cssNew/style/projects.css';
+@import '../cssNew/style/skills.css';
+@import '../cssNew/style/footer.css';
+
+
+/* @import '../cssNew/tempcouleur.css'; */

@@ -5,7 +5,7 @@
 
 #skills-title {
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 #skills-list {
@@ -38,6 +38,7 @@
 }
 
 .skill-name {
+  margin-top: 10px;
   font-size: 1.3em;
   text-align: center;
 }
@@ -48,6 +49,7 @@
 
 .skill-more {
   font-size: 0.9em;
+  padding: 20px;
 }
 
 /* //TODO */
@@ -55,6 +57,16 @@
 } */
 
 @media screen and (min-width: 768px) {
+  #section-skills {
+    flex-direction: row-reverse;
+  }
+
+  #skills-title {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    font-size: 4em;
+  }
+
   #skills-list {
     flex-direction: row;
   }
@@ -84,6 +96,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  #skills-title {
+    font-size: 8em;
+  }
+
   #skills-list {
     margin: 30px 10%;
   }

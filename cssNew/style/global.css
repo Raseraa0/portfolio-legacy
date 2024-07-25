@@ -1,0 +1,29 @@
+.background-style-1 {
+  background: var(--background-1);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.background-style-2 {
+  background: var(--background-2);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body {
+  color: var(--light-font);
+  font-family: "Urbanist";
+}
+
+a {
+  color: var(--light-font);
+}
+
+h2 {
+  font-family: "Diastema Regular";
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Diastema Regular";
+}

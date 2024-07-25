@@ -40,7 +40,7 @@
 }
 
 #prenom {
-  font-size: 2em;
+  font-size: 3em;
   text-wrap: nowrap;
 }
 
@@ -80,13 +80,13 @@
   }
 
   .media {
-    width: 30px;
+    width: 35px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   #hero-centered {
-    width: 75%;
+    width: 70%;
   }
 
   #presentation {
@@ -116,7 +116,7 @@
   }
 
   .media {
-    width: 30px;
+    width: 40px;
   }
 }
 

@@ -1,0 +1,57 @@
+#skills-title {
+  color: var(--title);
+}
+
+.skill {
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 8px;
+
+  color: var(--dark-font);
+
+  box-shadow: 15px 15px 10px 0px var(--dark-shadow-transparent);
+
+  transition: all 0.8s ease-out;
+}
+
+/* //TODO */
+.skill:hover {
+  translate: -5px -10px;
+  scale: 105%;
+  box-shadow: 15px 15px 13px 13px var(--dark-shadow-transparent);
+}
+
+.skill-name {
+  font-family: "Diastema Regular";
+  font-weight: bold;
+}
+
+#skill-1 {
+  background: linear-gradient(
+    30deg,
+    var(--skill-1-b) -40%,
+    var(--skill-1-a) 50%,
+    var(--skill-1-b) 140%
+  );
+  border-color: var(--skill-1-b);
+}
+
+#skill-2 {
+  background: linear-gradient(
+    30deg,
+    var(--skill-2-b) -40%,
+    var(--skill-2-a) 50%,
+    var(--skill-2-b) 140%
+  );
+  border-color: var(--skill-2-b);
+}
+
+#skill-3 {
+  background: linear-gradient(
+    30deg,
+    var(--skill-3-b) -40%,
+    var(--skill-3-a) 50%,
+    var(--skill-3-b) 140%
+  );
+  border-color: var(--skill-3-b);
+}

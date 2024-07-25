@@ -1,0 +1,20 @@
+.nav {
+  color: var(--light-font);
+  text-shadow: 0 0 20px var(--dark-shadow);
+
+  cursor: pointer;
+
+  transition: text-shadow 0.8s ease-in-out;
+}
+
+.nav:hover {
+  text-shadow: 0 0 10px var(--highlight);
+}
+
+#navigation-selecteur {
+  box-shadow: 0 0 10px var(--element);
+
+  background-color: var(--element);
+
+  transition: left 0.3s ease-in-out, width 0.3s ease-in-out;
+}
