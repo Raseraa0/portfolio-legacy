@@ -1,9 +1,4 @@
-/*  
-TODO
-Mettre des minwidth et minheinght pour éviter les dingerie de mise en page
-Mettre des bouton quie permette de passer a la section suivante ( genre au lieu de scroller
 
-*/
 
 
 @import 'global/color.css';
@@ -16,7 +11,7 @@ Mettre des bouton quie permette de passer a la section suivante ( genre au lieu 
 @import 'structure/myself.css';
 @import 'structure/projects.css';
 @import 'structure/skills.css';
-@import 'structure/footer.css';
+@import 'structure/footer.css'; 
 
 
 @import 'style/global.css';
@@ -26,8 +21,10 @@ Mettre des bouton quie permette de passer a la section suivante ( genre au lieu 
 @import 'style/skills.css';
 @import 'style/footer.css';
 
-@import 'animations/animations.css';
+@import 'homeButton.css';
+
+@import 'animations/animations.css'; 
 
 
 
-/* @import '../cssNew/tempcouleur.css'; */
+/* @import './tempcouleur.css'; */

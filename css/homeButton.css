@@ -1,0 +1,41 @@
+#back-to-top {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    background-color: var(--muted-element);
+    color: var(--dark-element);
+    border: solid 2px var(--highlight);
+    box-shadow: 0 0 10px 2px var(--highlight);
+
+    align-items: center;
+    justify-content: center;
+
+    
+    transition: opacity 0.5s;
+    opacity: 0;
+    z-index: 1000;
+  } 
+  
+  #back-to-top:hover {
+    opacity: 0;
+  }
+  
+  #back-to-top svg {
+    filter: drop-shadow(0 0 1px var(--dark-shadow));
+  }
+  
+  #back-to-top.show {
+    cursor: pointer;
+    display: block;
+    opacity: 0.5;
+  } 
+  #back-to-top.show:hover {
+    opacity: 1;
+  }
+
+
+  

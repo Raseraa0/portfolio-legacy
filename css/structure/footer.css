@@ -14,7 +14,8 @@ footer {
 #footer-all-navs {
   display: flex;
   flex-direction: row;
-  gap: 30%;
+  justify-content: space-between;
+  width: 15%;
 }
 
 @media screen and (min-width: 768px) {

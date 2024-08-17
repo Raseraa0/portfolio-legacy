@@ -1,26 +1,13 @@
 
-//TODO mettre des dégradé a la main plutot que des image de dégradé ??? pcq la ca met du temps a générer
-
 
 faire des animation partout
 
 
-réorganiser le code html et css, bon nom de variable etc
-
-gérer la variation de taille de fenetre avec des pourcentage et des minwidth genre
-
-ajouter barre du dessus
-
-rajouter barre du dessous
-
-améliorer tous un peu a droite a gauche (petite animation, style etc)
-
 
 rajouter fonctionnalité comme bouton pour passer a la section suivante
 
-repenser les couleur ?
 
-en dessous, faire truc pour envoyer des messages
+((en dessous, faire truc pour envoyer des messages))
 
 ameliorer tout les truc genre la les project sont pas beau quoi
 
@@ -55,3 +42,12 @@ réfléchir a la coérence entre l'utilisation du francais et de l'anglais???
 
 
 faire tout en plus petit ?? gene ca fait plus pros souvent
+
+
+
+mettre les bouton en savoir plus en evidence pour qu'on sache qu'il faut cliquer dessus, par exemple avec des >> en savoir plus << 
+ou genre avec une animation autour
+
+quand je passe ma souris sur ma photo genre emttre des info genre mon age mes passion etc genre les truc plus perso quoi
+
+quand je clique sur contact plutot essayer de faire qqch ou je met en évidence les contact, gerne sur la page d'acceuil je fais qqch jsp 

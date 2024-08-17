@@ -6,7 +6,7 @@ export function headerSetup() {
   for (let nav of navs) {
     nav.addEventListener("mouseenter", () => {
       let num = parseInt(nav.dataset.num);
-      let offset = document.getElementById('navigation-barre').offsetLeft;
+      let offset = document.getElementById("navigation-barre").offsetLeft;
       for (let i = 1; i < num; i++) {
         offset += document.getElementById(`nav-${i}`).clientWidth;
       }
@@ -25,9 +25,77 @@ export function headerSetup() {
 }
 
 function navSetup() {
-  // Accueil
-  // A propos
-  // Projects
-  // Skills
-  // Contact
+  const navs = document.getElementsByClassName("nav");
+
+  for (let nav of navs) {
+    nav.addEventListener("click", () => {
+      const num = parseInt(nav.dataset.num);
+
+      switch (num) {
+        case 1: // Accueil
+          zoomToHeroCentered();
+          break;
+        case 2: // A propos
+          scrollToSection("section-myself");
+          break;
+        case 3: // Projects
+          scrollToSection("section-projects");
+          break;
+        case 4: // Skills
+          scrollToSection("section-skills");
+          break;
+        case 5: // Contact
+          scrollToFooter();
+          break;
+      }
+    });
+  }
+}
+
+function zoomToHeroCentered() {
+  const heroCentered = document.getElementById("hero-centered");
+
+  // Appliquer l'effet de zoom
+  heroCentered.style.transition = "transform 0.2s ease-out";
+  heroCentered.style.transform = "scale(1.05)";
+
+  // Revenir à la taille initiale après un court délai
+  setTimeout(() => {
+    heroCentered.style.transform = "scale(1)";
+  }, 200);
+
+  // Retirer la transition après l'animation
+  setTimeout(() => {
+    heroCentered.style.transition = "";
+  }, 300);
+}
+
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  section.scrollIntoView({ behavior: "smooth" });
+}
+
+function scrollToFooter() {
+  const footer = document.querySelector("footer");
+  footer.scrollIntoView({ behavior: "smooth" });
+}
+
+export function setupBackToTopButton() {
+  const backToTopButton = document.getElementById('back-to-top');
+  const heroSection = document.getElementById('section-myself');
+
+  window.addEventListener('scroll', () => {
+    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight/2;
+    
+    if (window.pageYOffset > heroBottom) {
+      backToTopButton.classList.add('show');
+    } else {
+      backToTopButton.classList.remove('show');
+    }
+  });
+
+  backToTopButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    scrollToSection("section-myself");
+  });
 }
