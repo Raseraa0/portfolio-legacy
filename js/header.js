@@ -8,7 +8,11 @@ export function headerSetup() {
       let num = parseInt(nav.dataset.num);
       let offset = document.getElementById("navigation-barre").offsetLeft;
       for (let i = 1; i < num; i++) {
-        offset += document.getElementById(`nav-${i}`).clientWidth;
+
+        var temp = document.getElementById(`nav-${i}`);
+        if (isNaN(temp)){
+          offset += temp.clientWidth;
+        }
       }
 
       selecteur.style.width = `${nav.clientWidth}px`;

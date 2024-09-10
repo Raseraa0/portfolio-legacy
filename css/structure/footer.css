@@ -15,11 +15,18 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 15%;
+}
+
+.footer-nav{
+  padding: 0 10px;
 }
 
 @media screen and (min-width: 768px) {
   footer {
     font-size: 1em;
+  }
+
+  .footer-nav{
+    padding: 0 50px;
   }
 }
