@@ -8,9 +8,8 @@ export function headerSetup() {
       let num = parseInt(nav.dataset.num);
       let offset = document.getElementById("navigation-barre").offsetLeft;
       for (let i = 1; i < num; i++) {
-
         var temp = document.getElementById(`nav-${i}`);
-        if (isNaN(temp)){
+        if (temp) {
           offset += temp.clientWidth;
         }
       }
@@ -49,7 +48,7 @@ function navSetup() {
           scrollToSection("section-skills");
           break;
         case 5: // Contact
-          scrollToFooter();
+          activeEachContact();
           break;
       }
     });
@@ -74,6 +73,32 @@ function zoomToHeroCentered() {
   }, 300);
 }
 
+function activeEachContact() {
+  for (var i = 1; ; i++) {
+    const contact = document.getElementById(`media-${i}`);
+
+    if (!contact) {
+      break;
+    }
+
+    setTimeout(() => {
+      // Appliquer l'effet de zoom
+      contact.style.transition = "transform 0.2s ease-out";
+      contact.style.transform = "scale(1.35)";
+
+      // Revenir à la taille initiale après un court délai
+      setTimeout(() => {
+        contact.style.transform = "scale(1)";
+      }, 200);
+
+      // Retirer la transition après l'animation
+      setTimeout(() => {
+        contact.style.transition = "";
+      }, 300);
+    }, i * 150);
+  }
+}
+
 function scrollToSection(sectionId) {
   const section = document.getElementById(sectionId);
   section.scrollIntoView({ behavior: "smooth" });
@@ -85,20 +110,20 @@ function scrollToFooter() {
 }
 
 export function setupBackToTopButton() {
-  const backToTopButton = document.getElementById('back-to-top');
-  const heroSection = document.getElementById('section-myself');
+  const backToTopButton = document.getElementById("back-to-top");
+  const heroSection = document.getElementById("section-myself");
 
-  window.addEventListener('scroll', () => {
-    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight/2;
-    
+  window.addEventListener("scroll", () => {
+    const heroBottom = heroSection.offsetTop + heroSection.offsetHeight / 2;
+
     if (window.pageYOffset > heroBottom) {
-      backToTopButton.classList.add('show');
+      backToTopButton.classList.add("show");
     } else {
-      backToTopButton.classList.remove('show');
+      backToTopButton.classList.remove("show");
     }
   });
 
-  backToTopButton.addEventListener('click', (e) => {
+  backToTopButton.addEventListener("click", (e) => {
     e.preventDefault();
     scrollToSection("section-myself");
   });
