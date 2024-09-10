@@ -55,3 +55,13 @@
   );
   border-color: var(--skill-3-b);
 }
+
+#skill-4 {
+  background: linear-gradient(
+    30deg,
+    var(--skill-4-b) -40%,
+    var(--skill-4-a) 50%,
+    var(--skill-4-b) 140%
+  );
+  border-color: var(--skill-4-b);
+}
