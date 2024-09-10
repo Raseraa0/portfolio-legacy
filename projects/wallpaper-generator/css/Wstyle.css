@@ -1,0 +1,41 @@
+body {
+  background: var(--background-1);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.home-button {
+  background-color: var(--muted-element);
+  color: var(--dark-element);
+  border: solid 2px var(--highlight);
+  box-shadow: 0 0 10px 2px var(--highlight);
+
+  transition: all 0.2s ease-in-out;
+}
+
+.home-button svg {
+  fill: var(--dark-element);
+  filter: drop-shadow(0 0 1px var(--dark-shadow));
+}
+
+.home-button:hover {
+  box-shadow: 0 0 5px 2px var(--highlight);
+}
+
+h1 {
+  font-family: "Diastema Regular";
+  color: var(--title);
+}
+
+.image-container img {
+  box-shadow: 0 0 15px -5px var(--highlight);
+}
+
+.image-slider {
+  padding: 30px;
+}
+
+.description {
+  color: var(--light-font);
+  font-family: "Urbanist";
+}

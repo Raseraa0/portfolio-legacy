@@ -4,6 +4,7 @@
   background-size: cover;
 }
 
+/* I keep it for compatibility */
 .background-style-2 {
   background: var(--background-2);
   background-attachment: fixed;
