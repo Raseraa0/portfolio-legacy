@@ -36,5 +36,5 @@
 }
 
 .media.activated {
-  box-shadow: 0 0 100px var(--dark-shadow);
+  box-shadow: 0 0 50px var(--dark-shadow);
 }

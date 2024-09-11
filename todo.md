@@ -6,6 +6,7 @@ faire des animation partout
 
 rajouter fonctionnalité comme bouton pour passer a la section suivante
 
+faire le défilement met avec full css, peut etre que ca va régler les soucis de fluidité
 
 ((en dessous, faire truc pour envoyer des messages))
 

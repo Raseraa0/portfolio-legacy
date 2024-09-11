@@ -98,7 +98,7 @@ function activeEachContact() {
       setTimeout(() => {
         contact.style.transition = "";
       }, 300);
-    }, i * 250);
+    }, i * 200);
   }
 
   for (var i = 1; ; i++) {
@@ -123,7 +123,7 @@ function activeEachContact() {
       setTimeout(() => {
         contact.style.transition = "";
       }, 300);
-    }, (tot + i) * 250);
+    }, (tot + i) * 200);
   }
 }
 
