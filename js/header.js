@@ -74,6 +74,33 @@ function zoomToHeroCentered() {
 }
 
 function activeEachContact() {
+  var tot = 0;
+  for (var i = 1; ; i++) {
+    const contact = document.getElementById(`media-${i}`);
+
+    if (!contact) {
+      tot = i - 1;
+      break;
+    }
+
+    setTimeout(() => {
+      // Appliquer l'effet de zoom
+      contact.style.transition = "transform 0.2s ease-out";
+      contact.style.transform = "scale(1.35)";
+      contact.classList.add("activated");
+
+      // Revenir à la taille initiale après un court délai
+      setTimeout(() => {
+        contact.style.transform = "scale(1)";
+      }, 200);
+
+      // Retirer la transition après l'animation
+      setTimeout(() => {
+        contact.style.transition = "";
+      }, 300);
+    }, i * 250);
+  }
+
   for (var i = 1; ; i++) {
     const contact = document.getElementById(`media-${i}`);
 
@@ -85,6 +112,7 @@ function activeEachContact() {
       // Appliquer l'effet de zoom
       contact.style.transition = "transform 0.2s ease-out";
       contact.style.transform = "scale(1.35)";
+      contact.classList.remove("activated");
 
       // Revenir à la taille initiale après un court délai
       setTimeout(() => {
@@ -95,7 +123,7 @@ function activeEachContact() {
       setTimeout(() => {
         contact.style.transition = "";
       }, 300);
-    }, i * 150);
+    }, (tot + i) * 250);
   }
 }
 

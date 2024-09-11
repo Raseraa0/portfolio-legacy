@@ -5,7 +5,7 @@ body {
 
 .container {
     display: flex;
-    min-height: 90vh;
+    min-height: 95vh;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -30,11 +30,12 @@ header {
 .home-button svg {
     width: 30px;
     height: 30px;
-    fill: black;
 }
 .image-slider {
     width: 100%;
-    height: 400px;
+    height: 450px;
+    display: flex;
+    align-items: center;
     overflow: hidden;
     position: relative;
 }
@@ -55,8 +56,31 @@ header {
     padding: 2rem;
 }
 
+h1{
+    font-size: 2.5em;
+    transform: translateX(-10%);
+}
+
 @media screen and (min-width:768px) {
     h1{
-        font-size: 3em;
+        font-size: 4em;
     }
 }
+
+/* 
+*{
+    outline: solid red 1px;
+}
+
+.image-container{
+    outline-color: blue;
+}
+
+
+.image-slider{
+    outline-color: green;
+}
+
+header, .description {
+    outline-color: yellow;
+} */
