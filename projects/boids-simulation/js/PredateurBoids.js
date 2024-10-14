@@ -1,4 +1,5 @@
 import { Boids } from './Boids.js';
+import { Vector } from './Vector.js';
 
 
 export class PredateurBoids extends Boids {

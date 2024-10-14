@@ -29,16 +29,16 @@ export class EspaceBoids2D {
   }
 
   // Passage à létat suivant de la simulation
-  next() {
+  async next() {
     if (this.manager.isFinished()) {
       console.log("Plus rien a afficher...");
     }
-
     // On effectue les evenements à executer
     this.manager.next();
 
     // On dessine les boids
     this.draw();
+
   }
 
   // Reinitialisation de la simulation
@@ -50,11 +50,11 @@ export class EspaceBoids2D {
       // =================== MODIFIABLE ===================
       // valeurs 200 afin d'augmenter le nombre de prédateur
       if (i % 200 != 0) {
-        this.listeBoids[i] = new SimpleBoids(this.largeur, this.hauteur);
+        this.listeBoids[i] = SimpleBoids.random(this.largeur, this.hauteur);
         this.listeBoids[i].setEnv(this.espaceTore, this.largeur, this.hauteur);
       } else {
         // 1 boids sur 200 est un prédateur
-        this.listeBoids[i] = new PredateurBoids(this.largeur, this.hauteur);
+        this.listeBoids[i] = PredateurBoids.random(this.largeur, this.hauteur);
         this.listeBoids[i].setEnv(this.espaceTore, this.largeur, this.hauteur);
       }
     }
@@ -77,16 +77,7 @@ export class EspaceBoids2D {
   }
 }
 
-// Assuming you have SimpleBoids and PredateurBoids classes with draw() method
-// and you have EventManager and NextSimpleBoids classes with the same methods
 
-// Setup function for p5.js
-function setup() {
-  createCanvas(800, 600);
-  espaceBoids2D = new EspaceBoids2D(800, 600, true, 1000);
-}
-
-// Draw function for p5.js
-function draw() {
-  espaceBoids2D.next();
+function sleep(ms) {
+return new Promise(resolve => setTimeout(resolve, ms));
 }

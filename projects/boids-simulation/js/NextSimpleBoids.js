@@ -1,4 +1,7 @@
 import { Event } from "./Event.js";
+import { PredateurBoids } from './PredateurBoids.js';
+import { SimpleBoids } from './SimpleBoids.js';
+import { Vector } from './Vector.js';
 
 
 export class NextSimpleBoids extends Event {

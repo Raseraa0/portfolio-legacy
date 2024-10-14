@@ -1,3 +1,6 @@
+import { EspaceBoids2D } from "./EspaceBoids2D.js";
+
+let espaceBoids2D
 
 // Setup function for p5.js
 export function setup() {
@@ -13,12 +16,14 @@ export function setup() {
 
   let canvas = createCanvas(largeur, hauteur);
   canvas.parent("game");
+  frameRate(1)
   background(0);
 
-  // espaceBoids2D = new EspaceBoids2D(largeur, hauteur, espaceTore, nbBoids);
+  espaceBoids2D = new EspaceBoids2D(largeur, hauteur, espaceTore, nbBoids);
 }
 
 // Draw function for p5.js
 export function draw() {
   espaceBoids2D.next();
 }
+
