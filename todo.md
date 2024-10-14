@@ -1,8 +1,14 @@
+il faut peut être faire rajouter des élément qui font que on a envie de clicker, que ce soit sur les bouton de "en savoir" plus des projets, ou bien au tout début, sur la barre des tâche ou genre genre un truc animé qui veut dire scroll down quoi
+
+la photo d'entrée est peut être trop agressive ? ne pas al mettre ? ou mettre qqch de plus discret
+
+rajouter le fait que j'ai OCP :- )
+
 mettre la meme fleche sur le menu d'acceuil que sur chaque page de projet
 
 faire des animation partout
 
-
+faire le scroll des image s wallpaper generator en full css ??? peut etre comme ca il y aura moin de bug ? (+ régler le probleme de le subrillance
 
 rajouter fonctionnalité comme bouton pour passer a la section suivante
 

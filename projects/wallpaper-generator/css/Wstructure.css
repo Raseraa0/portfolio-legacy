@@ -67,7 +67,7 @@ h1{
     }
 }
 
-/* 
+
 *{
     outline: solid red 1px;
 }
@@ -83,4 +83,4 @@ h1{
 
 header, .description {
     outline-color: yellow;
-} */
+}
