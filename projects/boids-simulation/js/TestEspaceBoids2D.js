@@ -11,13 +11,13 @@ export function setup() {
   /* Parametre de la fenetre graphique */
   const largeur = document.getElementById("game").offsetWidth;
   const hauteur = document.getElementById("game").offsetHeight;
-  const nbBoids = 100;
+  const nbBoids = 420;
   const espaceTore = false;
 
   let canvas = createCanvas(largeur, hauteur);
   canvas.parent("game");
-  frameRate(1)
-  background(0);
+  frameRate(100)
+  background('grey');
 
   espaceBoids2D = new EspaceBoids2D(largeur, hauteur, espaceTore, nbBoids);
 }

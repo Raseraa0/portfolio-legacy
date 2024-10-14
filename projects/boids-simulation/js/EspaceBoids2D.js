@@ -21,7 +21,8 @@ export class EspaceBoids2D {
   // Dessine tout les boids sur la fenetre graphique
   draw() {
     console.log("On commence à dessiner les boids");
-
+   clear();
+   background(0);
     // On dessine les boids un par un
     for (let i = 0; i < this.nbBoids; i++) {
       this.listeBoids[i].draw();
@@ -38,7 +39,6 @@ export class EspaceBoids2D {
 
     // On dessine les boids
     this.draw();
-
   }
 
   // Reinitialisation de la simulation
@@ -58,26 +58,25 @@ export class EspaceBoids2D {
         this.listeBoids[i].setEnv(this.espaceTore, this.largeur, this.hauteur);
       }
     }
-    
+
     // Ajout du manager et de la première tache
     this.manager = new EventManager();
     this.manager.addEvent(
       new NextSimpleBoids(
-          1,
-          this.manager,
+        1,
+        this.manager,
         this.listeBoids,
         this.nbBoids,
         this.largeur,
         this.hauteur,
         this.espaceTore
-    )
+      )
     );
     // On dessine les boids
     this.draw();
   }
 }
 
-
 function sleep(ms) {
-return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }

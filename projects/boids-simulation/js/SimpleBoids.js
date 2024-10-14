@@ -8,7 +8,8 @@ export class SimpleBoids extends Boids {
     console.log("Construction d'un simple boids");
     super(pos, vit);
 
-    this.couleur = 'black';
+    this.couleur = 'blue';
+    this.strock = 'white';
     this.taille = 10;
     this.vitesseLimite = 5;
     this.forceMax = 0.10;

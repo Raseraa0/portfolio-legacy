@@ -70,7 +70,8 @@ export class Boids {
     }
 
     draw() {
-        stroke(this.couleur);
+        console.log("dessine UN boids", this.couleur);
+        stroke(this.strock);
         fill(this.couleur);
 
         if (this.taille > 3) {
