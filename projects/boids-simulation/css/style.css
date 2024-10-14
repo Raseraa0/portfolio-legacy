@@ -2,5 +2,6 @@
 @import '../../../css/global/font.css';
 @import '../../../css/global/color.css';
 
-@import 'game.css';
+@import './Bstructure.css';
+@import './Bstyle.css';
 

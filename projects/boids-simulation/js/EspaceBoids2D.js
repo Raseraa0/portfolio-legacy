@@ -22,7 +22,7 @@ export class EspaceBoids2D {
   draw() {
     console.log("On commence à dessiner les boids");
    clear();
-   background(0);
+   background('aqua');
     // On dessine les boids un par un
     for (let i = 0; i < this.nbBoids; i++) {
       this.listeBoids[i].draw();

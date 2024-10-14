@@ -12,12 +12,12 @@ export function setup() {
   const largeur = document.getElementById("game").offsetWidth;
   const hauteur = document.getElementById("game").offsetHeight;
   const nbBoids = 420;
-  const espaceTore = false;
+  const espaceTore = true;
 
   let canvas = createCanvas(largeur, hauteur);
   canvas.parent("game");
-  frameRate(100)
-  background('grey');
+  frameRate(200)
+  background('#FFFFFF');
 
   espaceBoids2D = new EspaceBoids2D(largeur, hauteur, espaceTore, nbBoids);
 }

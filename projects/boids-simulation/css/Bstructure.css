@@ -1,0 +1,16 @@
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+#game {
+  margin: auto;
+  width: 99%;
+  height: 99%;
+}
