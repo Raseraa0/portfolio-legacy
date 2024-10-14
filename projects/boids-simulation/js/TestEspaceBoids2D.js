@@ -1,0 +1,24 @@
+
+// Setup function for p5.js
+export function setup() {
+  console.log("Debut de global");
+
+  // ======== MODIFIABLE ======== //
+
+  /* Parametre de la fenetre graphique */
+  const largeur = document.getElementById("game").offsetWidth;
+  const hauteur = document.getElementById("game").offsetHeight;
+  const nbBoids = 100;
+  const espaceTore = false;
+
+  let canvas = createCanvas(largeur, hauteur);
+  canvas.parent("game");
+  background(0);
+
+  // espaceBoids2D = new EspaceBoids2D(largeur, hauteur, espaceTore, nbBoids);
+}
+
+// Draw function for p5.js
+export function draw() {
+  espaceBoids2D.next();
+}
