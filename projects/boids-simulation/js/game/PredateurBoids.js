@@ -8,7 +8,7 @@ export class PredateurBoids extends Boids {
     constructor(pos, vit) {
       super(pos, vit);
   
-      this.couleur = [255,0,66,100];
+      this.couleur = [0,255,255,200];
       this.strock = [255,255,255,128];
       this.taille = 17;
       this.vitesseLimite = 7;

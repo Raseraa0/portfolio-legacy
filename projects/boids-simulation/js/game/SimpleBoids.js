@@ -7,7 +7,7 @@ export class SimpleBoids extends Boids {
   constructor(pos, vit) {
     super(pos, vit);
 
-    this.couleur = [255,189,0,100];
+    this.couleur = [255,189,0,200];
     this.strock = [0,0,0,128];
     this.taille = 10;
     this.vitesseLimite = 5;
