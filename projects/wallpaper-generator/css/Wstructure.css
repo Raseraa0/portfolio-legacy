@@ -14,10 +14,22 @@ header {
   text-align: center;
   padding: 1rem;
 }
+
+h1 {
+  font-size: 2.5em;
+  width: 70%;
+  transform: none;
+
+}
+
+
+.description {
+  text-align: center;
+  padding: 2rem 0;
+}
+
 .home-button {
   position: absolute;
-  top: 30px;
-  right: 30px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -27,13 +39,20 @@ header {
   justify-content: center;
   align-items: center;
 }
+.home-button {
+  top: 30px;
+  right: 30px;
+
+}
+
 .home-button svg {
   width: 30px;
   height: 30px;
 }
+
 .image-slider {
   width: 100%;
-  height: 480px;
+  height: 250px;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -96,26 +115,19 @@ header {
   transform: scale(0.98);
 }
 
-.description {
-  text-align: center;
-  padding: 2rem;
-}
-
-h1 {
-  font-size: 2.5em;
-  width: 300px;
-  transform: none;
+@media screen and (min-width: 450px) {
+  h1 {
+    width: auto;
+    transform: translateX(-10%);
+  }
 }
 
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 4em;
   }
-}
 
-@media screen and (min-width: 450px) {
-  h1 {
-    width: auto;
-    transform: translateX(-10%);
+  .image-slider{
+    height: 480px;
   }
 }
