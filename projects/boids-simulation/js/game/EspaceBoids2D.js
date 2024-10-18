@@ -4,11 +4,11 @@ import { PredateurBoids } from "./PredateurBoids.js";
 import { SimpleBoids } from "./SimpleBoids.js";
 
 export class EspaceBoids2D {
-  constructor(largeur, hauteur, espaceTore, nbBoids) {
-    console.log("Construction de EspaceBoids2D");
+  constructor(largeur, hauteur, espaceTore, nbBoids, nbPredateurs) {
     this.largeur = largeur;
     this.hauteur = hauteur;
     this.nbBoids = nbBoids;
+    this.nbPredateurs = nbPredateurs
     this.espaceTore = espaceTore;
 
     // Initialisation du tableau des boids
@@ -20,9 +20,8 @@ export class EspaceBoids2D {
 
   // Dessine tout les boids sur la fenetre graphique
   draw() {
-    console.log("On commence à dessiner les boids");
    clear();
-   background('aqua');
+   background(0, 0, 0, 0);
     // On dessine les boids un par un
     for (let i = 0; i < this.nbBoids; i++) {
       this.listeBoids[i].draw();
@@ -32,7 +31,6 @@ export class EspaceBoids2D {
   // Passage à létat suivant de la simulation
   async next() {
     if (this.manager.isFinished()) {
-      console.log("Plus rien a afficher...");
     }
     // On effectue les evenements à executer
     this.manager.next();
@@ -43,18 +41,17 @@ export class EspaceBoids2D {
 
   // Reinitialisation de la simulation
   restart() {
-    console.log("Début du restart de EspaceBoids2D");
     // Pour chaque boids, on l'initialise avec des valeurs aléatoire
     // et on initialise l'environnement
     for (let i = 0; i < this.nbBoids; i++) {
       // =================== MODIFIABLE ===================
       // valeurs 200 afin d'augmenter le nombre de prédateur
-      if (i % 200 != 0) {
-        this.listeBoids[i] = SimpleBoids.random(this.largeur, this.hauteur);
+      if (i < this.nbPredateurs) {
+        this.listeBoids[i] = PredateurBoids.random(this.largeur, this.hauteur);
         this.listeBoids[i].setEnv(this.espaceTore, this.largeur, this.hauteur);
       } else {
         // 1 boids sur 200 est un prédateur
-        this.listeBoids[i] = PredateurBoids.random(this.largeur, this.hauteur);
+        this.listeBoids[i] = SimpleBoids.random(this.largeur, this.hauteur);
         this.listeBoids[i].setEnv(this.espaceTore, this.largeur, this.hauteur);
       }
     }

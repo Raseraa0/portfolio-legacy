@@ -38,17 +38,17 @@ export class NextSimpleBoids extends Event {
       let presZoneVision = false;
       let presZoneCritique = false;
       let presLimite = false;
-      let presPred = false;
   
       let nbBoidsVu = 0;
+      let nbPredVu = 0;
   
       for (let i = 0; i < this.nbBoids; i++) {
         let other = this.listeBoids[i];
   
         if (other !== boids) {
-          if (boids.estChampsVision(other) && other instanceof PredateurBoids) {
-            presPred = true;
+          if (boids.estChampsVision(other) && !(boids instanceof PredateurBoids) && other instanceof PredateurBoids) {
             fuiPred.add(other.pos);
+            nbPredVu += 1;
           }
   
           if (boids.estChampsVision(other) && other instanceof SimpleBoids) {
@@ -90,6 +90,10 @@ export class NextSimpleBoids extends Event {
       }
       colision.add(boids.pos);
       pasBord.add(boids.pos);
+
+      if (nbPredVu != 0){
+        fuiPred.div(nbPredVu)
+      }
   
       let force1 = boids.cibleToForce(centreMasse);
       let force2 = boids.cibleToForce(alignement);
@@ -112,7 +116,7 @@ export class NextSimpleBoids extends Event {
       if (presLimite && !this.espaceTore) {
         force.add(force4);
       }
-      if (presPred) {
+      if (nbPredVu != 0) {
         force.add(force5);
       }
   

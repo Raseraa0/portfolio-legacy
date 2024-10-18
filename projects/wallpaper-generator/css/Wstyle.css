@@ -4,7 +4,7 @@ body {
   background-size: cover;
 }
 
-.home-button {
+.button {
   background-color: var(--muted-element);
   color: var(--dark-element);
   border: solid 2px var(--highlight);
@@ -14,12 +14,12 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-.home-button svg {
+.button svg {
   fill: var(--dark-element);
   filter: drop-shadow(0 0 1px var(--dark-shadow));
 }
 
-.home-button:hover {
+.button:hover {
   opacity: 1;
   box-shadow: 0 0 5px 2px var(--highlight);
 }

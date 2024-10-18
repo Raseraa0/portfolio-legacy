@@ -3,3 +3,38 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+.description {
+  color: var(--light-font);
+  font-family: "Urbanist";
+}
+
+h1 {
+  font-family: "Diastema Regular";
+  font-weight: normal;
+  color: var(--title);
+}
+
+.button {
+  background-color: var(--muted-element);
+  color: var(--dark-element);
+  border: solid 2px var(--highlight);
+  box-shadow: 0 0 10px 2px var(--highlight);
+  opacity: 0.5;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.button svg {
+  fill: var(--dark-element);
+  filter: drop-shadow(0 0 1px var(--dark-shadow));
+}
+
+.button:hover {
+  opacity: 1;
+  box-shadow: 0 0 5px 2px var(--highlight);
+}
+
+.pannel-control {
+  outline: solid red 1px;
+}

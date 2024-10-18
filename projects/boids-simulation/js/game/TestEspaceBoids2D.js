@@ -1,25 +1,29 @@
 import { EspaceBoids2D } from "./EspaceBoids2D.js";
 
-let espaceBoids2D
+let espaceBoids2D;
+
+export class Data{
+  static nbBoids = 420;
+  static nbPredateurs = 3;
+}
 
 // Setup function for p5.js
 export function setup() {
-  console.log("Debut de global");
-
+  
   // ======== MODIFIABLE ======== //
-
+  
   /* Parametre de la fenetre graphique */
   const largeur = document.getElementById("game").offsetWidth;
   const hauteur = document.getElementById("game").offsetHeight;
-  const nbBoids = 420;
   const espaceTore = true;
+
 
   let canvas = createCanvas(largeur, hauteur);
   canvas.parent("game");
-  frameRate(200)
-  background('#FFFFFF');
+  frameRate(200);
+  background(0, 0, 0, 0);
 
-  espaceBoids2D = new EspaceBoids2D(largeur, hauteur, espaceTore, nbBoids);
+  espaceBoids2D = new EspaceBoids2D(largeur, hauteur, espaceTore, Data.nbBoids, Data.nbPredateurs);
 }
 
 // Draw function for p5.js

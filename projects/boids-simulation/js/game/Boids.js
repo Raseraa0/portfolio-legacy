@@ -70,9 +70,8 @@ export class Boids {
     }
 
     draw() {
-        console.log("dessine UN boids", this.couleur);
-        stroke(this.strock);
-        fill(this.couleur);
+        stroke(this.strock[0],this.strock[1],this.strock[2],this.strock[3]);
+        fill(this.couleur[0],this.couleur[1],this.couleur[2],this.couleur[3]);
 
         if (this.taille > 3) {
             let v1 = this.vit.copy();

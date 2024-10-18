@@ -20,6 +20,7 @@ function loadWallpapers() {
     ];
   }
 
+  let index = 1;
   // Charger les images dans l'ordre aléatoire
   imageIndices.forEach((i) => {
     const wrapper = document.createElement("div");
@@ -30,7 +31,7 @@ function loadWallpapers() {
     img.alt = "";
     img.loading = "lazy";
     img.style.animationDelay = `${
-      (time / numberOfImages) * (numberOfImages - i) * -1
+      (time / numberOfImages) * (numberOfImages - index++) * -1
     }s`;
     img.style.left = `max(calc(${imgWidth}px * ${numberOfImages}), 100%)`;
     img.style.animationDuration = `${time}s`;

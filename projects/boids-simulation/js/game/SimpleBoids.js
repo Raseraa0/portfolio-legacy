@@ -5,11 +5,10 @@ export class SimpleBoids extends Boids {
   static vitLim;
 
   constructor(pos, vit) {
-    console.log("Construction d'un simple boids");
     super(pos, vit);
 
-    this.couleur = 'blue';
-    this.strock = 'white';
+    this.couleur = [255,189,0,100];
+    this.strock = [0,0,0,128];
     this.taille = 10;
     this.vitesseLimite = 5;
     this.forceMax = 0.10;

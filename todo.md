@@ -1,3 +1,14 @@
+les boids faire en sorte que ca refrech quand on redimensionne la page
+un jour réglé le probleme des boids qui se bloque dans les bordure ??
+
+quand on revient en arrière essayer de ce rappeler de ou on était sur la page
+
+rajouter un hi im d'une autre couleur ??????
+
+mettre en évidence le bouton menu de la page du projet boid afin que l'on sache que l'on peut accéder a ce menu afin de change les parametre et tout
+
+problème de responsive pour le wallpaper project
+
 il faut peut être faire rajouter des élément qui font que on a envie de clicker, que ce soit sur les bouton de "en savoir" plus des projets, ou bien au tout début, sur la barre des tâche ou genre genre un truc animé qui veut dire scroll down quoi
 
 la photo d'entrée est peut être trop agressive ? ne pas al mettre ? ou mettre qqch de plus discret
@@ -8,7 +19,6 @@ mettre la meme fleche sur le menu d'acceuil que sur chaque page de projet
 
 faire des animation partout
 
-faire le scroll des image s wallpaper generator en full css ??? peut etre comme ca il y aura moin de bug ? (+ régler le probleme de le subrillance
 
 rajouter fonctionnalité comme bouton pour passer a la section suivante
 
@@ -32,7 +42,7 @@ link le game of life
 faire section ou jexplique boids
 
 //TODO scroll bar transparente sur mobile ? ( et peut etre sur pc)
-genre en mode custom scroll barre apres faut pas en faire trop
+genre en mode custom scroll barre apres faut pas en faire trop ( oui ne pas en faire trop )
 
 
 foutre des ombre partout ???

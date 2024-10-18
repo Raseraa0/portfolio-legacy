@@ -1,16 +1,93 @@
 * {
-  width: 100%;
   margin: 0;
   padding: 0;
 }
 
-body {
-  height: 100vh;
-  width: 100%;
+.container {
+  display: flex;
+  min-height: 95vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2.5em;
+  width: 300px;
+  transform: none;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  h1 {
+    width: auto;
+    transform: translateX(-10%);
+  }
+}
+
+.description {
+  text-align: center;
+  padding: 2rem 0;
 }
 
 #game {
-  margin: auto;
-  width: 99%;
+  /* margin: auto; */
+  /* margin-top: 5px; */
+  z-index: -1;
+  width: 100%;
   height: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-button svg {
+  width: 30px;
+  height: 30px;
+}
+
+.home-button {
+  top: 30px;
+  right: 30px;
+}
+
+.sus-pannel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pannel-control {
+  width: 80%;
+}
+
+.parameter{
+  outline: red solide 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
