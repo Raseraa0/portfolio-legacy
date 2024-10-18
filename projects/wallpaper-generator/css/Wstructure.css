@@ -19,9 +19,7 @@ h1 {
   font-size: 2.5em;
   width: 70%;
   transform: none;
-
 }
-
 
 .description {
   text-align: center;
@@ -42,7 +40,6 @@ h1 {
 .home-button {
   top: 30px;
   right: 30px;
-
 }
 
 .home-button svg {
@@ -51,8 +48,8 @@ h1 {
 }
 
 .image-slider {
+  height: 480px;
   width: 100%;
-  height: 250px;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -125,9 +122,5 @@ h1 {
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 4em;
-  }
-
-  .image-slider{
-    height: 480px;
   }
 }
