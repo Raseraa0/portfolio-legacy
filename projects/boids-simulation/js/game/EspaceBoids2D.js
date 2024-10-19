@@ -2,6 +2,7 @@ import { EventManager } from "./EventManager.js";
 import { NextSimpleBoids } from "./NextSimpleBoids.js";
 import { PredateurBoids } from "./PredateurBoids.js";
 import { SimpleBoids } from "./SimpleBoids.js";
+import { Data } from "./TestEspaceBoids2D.js";
 
 export class EspaceBoids2D {
   constructor(largeur, hauteur, espaceTore, nbBoids, nbPredateurs) {
@@ -9,7 +10,7 @@ export class EspaceBoids2D {
     this.hauteur = hauteur;
     this.nbBoids = nbBoids;
     this.nbPredateurs = nbPredateurs
-    this.espaceTore = espaceTore;
+    Data.espaceTore = espaceTore;
 
     // Initialisation du tableau des boids
     this.listeBoids = new Array(nbBoids);
@@ -48,11 +49,11 @@ export class EspaceBoids2D {
       // valeurs 200 afin d'augmenter le nombre de prédateur
       if (i < this.nbPredateurs) {
         this.listeBoids[i] = PredateurBoids.random(this.largeur, this.hauteur);
-        this.listeBoids[i].setEnv(this.espaceTore, this.largeur, this.hauteur);
+        this.listeBoids[i].setEnv(Data.espaceTore, this.largeur, this.hauteur);
       } else {
         // 1 boids sur 200 est un prédateur
         this.listeBoids[i] = SimpleBoids.random(this.largeur, this.hauteur);
-        this.listeBoids[i].setEnv(this.espaceTore, this.largeur, this.hauteur);
+        this.listeBoids[i].setEnv(Data.espaceTore, this.largeur, this.hauteur);
       }
     }
 
@@ -66,7 +67,7 @@ export class EspaceBoids2D {
         this.nbBoids,
         this.largeur,
         this.hauteur,
-        this.espaceTore
+        Data.espaceTore
       )
     );
     // On dessine les boids

@@ -5,6 +5,7 @@ let espaceBoids2D;
 export class Data{
   static nbBoids = 420;
   static nbPredateurs = 3;
+  static espaceTore = true;
 }
 
 // Setup function for p5.js
@@ -15,7 +16,6 @@ export function setup() {
   /* Parametre de la fenetre graphique */
   const largeur = document.getElementById("game").offsetWidth;
   const hauteur = document.getElementById("game").offsetHeight;
-  const espaceTore = true;
 
 
   let canvas = createCanvas(largeur, hauteur);
@@ -23,7 +23,7 @@ export function setup() {
   frameRate(200);
   background(0, 0, 0, 0);
 
-  espaceBoids2D = new EspaceBoids2D(largeur, hauteur, espaceTore, Data.nbBoids, Data.nbPredateurs);
+  espaceBoids2D = new EspaceBoids2D(largeur, hauteur, Data.espaceTore, Data.nbBoids, Data.nbPredateurs);
 }
 
 // Draw function for p5.js

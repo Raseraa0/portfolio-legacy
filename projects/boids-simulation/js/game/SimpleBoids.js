@@ -1,29 +1,62 @@
-import { Boids } from './Boids.js';
-import { Vector } from './Vector.js';
+import { Boids } from "./Boids.js";
+import { Vector } from "./Vector.js";
 
 export class SimpleBoids extends Boids {
   static vitLim;
+  static taille;
+  static vitesseLimite;
+  static forceMax;
+  static distanceVision;
+  static angleVision;
+  static distanceCritique;
 
   constructor(pos, vit) {
     super(pos, vit);
 
-    this.couleur = [255,189,0,200];
-    this.strock = [0,0,0,128];
-    this.taille = 10;
-    this.vitesseLimite = 5;
-    this.forceMax = 0.10;
-    this.distanceVision = 80;
-    this.angleVision = 160;
-    this.distanceCritique = 20;
+    this.couleur = [102, 191, 170, 200];
+    this.strock = [10, 19, 17, 200];
+    SimpleBoids.taille = 10;
+    SimpleBoids.vitesseLimite = 5;
+    SimpleBoids.forceMax = 0.1;
+    SimpleBoids.distanceVision = 80;
+    SimpleBoids.angleVision = 160;
+    SimpleBoids.distanceCritique = 20;
     this.limiteBord = 20;
+  }
 
-    SimpleBoids.vitLim = this.vitesseLimite;
+  getTaille() {
+    return SimpleBoids.taille;
+  }
+
+  getVitesseLimite() {
+    return SimpleBoids.vitesseLimite;
+  }
+
+  getForceMax() {
+    return SimpleBoids.forceMax;
+  }
+
+  getDistanceVision() {
+    return SimpleBoids.distanceVision;
+  }
+
+  getAngleVision() {
+    return SimpleBoids.angleVision;
+  }
+
+  getDistanceCritique() {
+    return SimpleBoids.distanceCritique;
   }
 
   static random(largeur, hauteur) {
     return new SimpleBoids(
       Vector.random(0, largeur, 0, hauteur),
-      Vector.random(-SimpleBoids.vitLim, SimpleBoids.vitLim, -SimpleBoids.vitLim, SimpleBoids.vitLim)
+      Vector.random(
+        -SimpleBoids.vitesseLimite,
+        SimpleBoids.vitesseLimite,
+        -SimpleBoids.vitesseLimite,
+        SimpleBoids.vitesseLimite
+      )
     );
   }
 

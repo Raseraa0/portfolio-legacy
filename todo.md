@@ -1,3 +1,11 @@
+pour le jeu de la vie, ne pas faire avec p5.js ca sera trop over kill et limiterai les interaction possible
+
+pour les boids, faire un bouton reset, et faire des preset, genre 3 preset ca pourrait etre stylé, et faire attention au problème que je pourrait avoir genre check les range de toute les valeurs
+
+tout passer en typescript en vrai....
+
+reglé le problème des boids tout simplement mdr
+
 les boids faire en sorte que ca refrech quand on redimensionne la page
 un jour réglé le probleme des boids qui se bloque dans les bordure ??
 

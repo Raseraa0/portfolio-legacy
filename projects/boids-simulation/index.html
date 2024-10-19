@@ -20,33 +20,212 @@
             />
           </svg>
         </a>
+        <button class="switch-light button active" >
+          <img class="active" src="./img/lamp-on.svg" alt="">
+          <img class="inactive" src="./img/lamp-off.svg" alt="">
+        </button>
       </header>
 
       <div class="sus-pannel">
         <div class="pannel-control">
-          <div id="nb-boids" class="parameter">
-            <span id="title-nb-boids">Nombre total de boids</span>
-            <input
-              type="range"
-              min="100"
-              max="800"
-              value="420"
-              class="slider"
-              id="slider-nb-boids"
-            />
-            <span id="value-nb-boids">420</span>
+          <div id="simulation-parameters" class="parameters">
+            <span class="title-parameters">Global</span>
+            <div id="nb-boids" class="parameter">
+              <span id="title-nb-boids">Nombre total de boids</span>
+              <input
+                type="range"
+                min="100"
+                max="800"
+                value="420"
+                class="slider"
+                id="slider-nb-boids"
+              />
+              <span id="value-nb-boids">420</span>
+            </div>
+            <div id="nb-pred" class="parameter">
+              <span id="title-nb-pred">Nombre de prédateur</span>
+              <input
+                type="range"
+                min="0"
+                max="100"
+                value="3"
+                class="slider"
+                id="slider-nb-pred"
+              />
+              <span id="value-nb-pred">3</span>
+            </div>
+            <div id="est-tore" class="parameter">
+              <span id="title-est-tore">L'espace est un tore</span>
+              <label class="my-checkbox">
+                <input type="checkbox" checked id="checkbox-est-tore" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
           </div>
-          <div id="nb-pred" class="parameter">
-            <span id="title-nb-pred">Nombre de prédateur</span>
-            <input
-              type="range"
-              min="0"
-              max="100"
-              value="3"
-              class="slider"
-              id="slider-nb-pred"
-            />
-            <span id="value-nb-pred">3</span>
+          <div id="boids-parameters" class="parameters">
+            <span class="title-parameters">Simple</span>
+            <div id="taille-simple" class="parameter">
+              <span id="title-taille-simple">Taille</span>
+              <input
+                type="range"
+                min="2"
+                max="30"
+                value="10"
+                class="slider"
+                id="slider-taille-simple"
+              />
+              <span id="value-taille-simple">10</span>
+            </div>
+
+            <div id="vitesse-limite-simple" class="parameter">
+              <span id="title-vitesse-limite-simple">Vitesse limite</span>
+              <input
+                type="range"
+                min="1"
+                max="50"
+                value="5"
+                class="slider"
+                id="slider-vitesse-limite-simple"
+              />
+              <span id="value-vitesse-limite-simple">5</span>
+            </div>
+
+            <div id="force-max-simple" class="parameter">
+              <span id="title-force-max-simple">Force max</span>
+              <input
+                type="range"
+                min="0.01"
+                max="1"
+                step="0.01"
+                value="0.10"
+                class="slider"
+                id="slider-force-max-simple"
+              />
+              <span id="value-force-max-simple">0.10</span>
+            </div>
+
+            <div id="distance-vision-simple" class="parameter">
+              <span id="title-distance-vision-simple">Distance vision</span>
+              <input
+                type="range"
+                min="10"
+                max="200"
+                value="80"
+                class="slider"
+                id="slider-distance-vision-simple"
+              />
+              <span id="value-distance-vision-simple">80</span>
+            </div>
+
+            <div id="angle-vision-simple" class="parameter">
+              <span id="title-angle-vision-simple">Angle vision</span>
+              <input
+                type="range"
+                min="0"
+                max="360"
+                value="160"
+                class="slider"
+                id="slider-angle-vision-simple"
+              />
+              <span id="value-angle-vision-simple">160</span>
+            </div>
+
+            <div id="distance-critique-simple" class="parameter">
+              <span id="title-distance-critique-simple">Distance critique</span>
+              <input
+                type="range"
+                min="1"
+                max="50"
+                value="20"
+                class="slider"
+                id="slider-distance-critique-simple"
+              />
+              <span id="value-distance-critique-simple">20</span>
+            </div>
+          </div>
+
+          <div id="predateur-parameters" class="parameters">
+            <span class="title-parameters">Predator</span>
+            <div id="taille-predateur" class="parameter">
+              <span id="title-taille-predateur">Taille</span>
+              <input
+                type="range"
+                min="2"
+                max="30"
+                value="10"
+                class="slider"
+                id="slider-taille-predateur"
+              />
+              <span id="value-taille-predateur">10</span>
+            </div>
+
+            <div id="vitesse-limite-predateur" class="parameter">
+              <span id="title-vitesse-limite-predateur">Vitesse limite</span>
+              <input
+                type="range"
+                min="1"
+                max="20"
+                value="7"
+                class="slider"
+                id="slider-vitesse-limite-predateur"
+              />
+              <span id="value-vitesse-limite-predateur">7</span>
+            </div>
+
+            <div id="force-max-predateur" class="parameter">
+              <span id="title-force-max-predateur">Force max</span>
+              <input
+                type="range"
+                min="0.01"
+                max="1"
+                step="0.01"
+                value="0.25"
+                class="slider"
+                id="slider-force-max-predateur"
+              />
+              <span id="value-force-max-predateur">0.25</span>
+            </div>
+
+            <div id="distance-vision-predateur" class="parameter">
+              <span id="title-distance-vision-predateur">Distance vision</span>
+              <input
+                type="range"
+                min="10"
+                max="200"
+                value="100"
+                class="slider"
+                id="slider-distance-vision-predateur"
+              />
+              <span id="value-distance-vision-predateur">100</span>
+            </div>
+
+            <div id="angle-vision-predateur" class="parameter">
+              <span id="title-angle-vision-predateur">Angle vision</span>
+              <input
+                type="range"
+                min="0"
+                max="360"
+                value="160"
+                class="slider"
+                id="slider-angle-vision-predateur"
+              />
+              <span id="value-angle-vision-predateur">160</span>
+            </div>
+
+            <div id="distance-critique-predateur" class="parameter">
+              <span id="title-distance-critique-predateur"
+                >Distance critique</span
+              >
+              <input
+                type="range"
+                min="0"
+                max="50"
+                value="0"
+                class="slider"
+                id="slider-distance-critique-predateur"
+              />
+              <span id="value-distance-critique-predateur">0</span>
+            </div>
           </div>
         </div>
       </div>

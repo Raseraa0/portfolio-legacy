@@ -1,6 +1,7 @@
 import { Event } from "./Event.js";
 import { PredateurBoids } from './PredateurBoids.js';
 import { SimpleBoids } from './SimpleBoids.js';
+import { Data } from "./TestEspaceBoids2D.js";
 import { Vector } from './Vector.js';
 
 
@@ -11,7 +12,7 @@ export class NextSimpleBoids extends Event {
       this.nbBoids = nbBoids;
       this.largeur = largeur;
       this.hauteur = hauteur;
-      this.espaceTore = espaceTore;
+      Data.espaceTore = espaceTore;
       this.manager = manager;
       this.pasTemps = 1;
     }
@@ -25,7 +26,7 @@ export class NextSimpleBoids extends Event {
         this.listeBoids[i].update();
       }
   
-      this.manager.addEvent(new NextSimpleBoids(this.date + this.pasTemps, this.manager, this.listeBoids, this.nbBoids, this.largeur, this.hauteur, this.espaceTore));
+      this.manager.addEvent(new NextSimpleBoids(this.date + this.pasTemps, this.manager, this.listeBoids, this.nbBoids, this.largeur, this.hauteur, Data.espaceTore));
     }
   
     rule(boids) {
@@ -113,7 +114,7 @@ export class NextSimpleBoids extends Event {
       if (presZoneCritique) {
         force.add(force3);
       }
-      if (presLimite && !this.espaceTore) {
+      if (presLimite && !Data.espaceTore) {
         force.add(force4);
       }
       if (nbPredVu != 0) {
