@@ -23,10 +23,12 @@
   width: 10px;
   height: 15px;
   background: var(--light-font);
-  border-radius: 50%;
+  border-radius: 5px;
   cursor: pointer;
 
   transform: translateY(-5px);
+
+  transition: all 0.2s ease-out;
 }
 
 .slider::-moz-range-thumb {
@@ -35,10 +37,12 @@
   width: 10px;
   height: 15px;
   background: var(--light-font);
-  border-radius: 50%;
+  border-radius: 5px;
   cursor: pointer;
-
+  
   transform: translateY(-5px);
+
+  transition: all 0.2s ease-out;
 }
 
 .slider::-ms-thumb {
@@ -47,10 +51,12 @@
   width: 10px;
   height: 15px;
   background: var(--light-font);
-  border-radius: 50%;
+  border-radius: 5px;
   cursor: pointer;
-
+  
+  
   transform: translateY(-5px);
+  transition: all 0.2s ease-out;
 }
 
 .slider::-webkit-slider-runnable-track {
@@ -81,4 +87,16 @@
   background: var(--element);
   border-radius: 5px;
   opacity: 0.8;
+}
+
+.parameter:hover .slider::-webkit-slider-thumb {
+  width: 15px;
+}
+
+.parameter:hover .slider::-moz-range-thumb {
+  width: 15px;
+}
+
+.parameter:hover .slider::-ms-thumb {
+  width: 15px;
 }

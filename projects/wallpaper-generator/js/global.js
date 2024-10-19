@@ -27,7 +27,7 @@ function loadWallpapers() {
     wrapper.classList.add("image-wrapper");
 
     const img = document.createElement("img");
-    img.src = `img/Wallpaper${i}.png`; // Change le chemin en fonction du nom des images
+    img.src = `../img/wallpapers/Wallpaper${i}.png`; // Change le chemin en fonction du nom des images
     img.alt = "";
     img.loading = "lazy";
     img.style.animationDelay = `${

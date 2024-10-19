@@ -6,6 +6,8 @@ tout passer en typescript en vrai....
 
 reglé le problème des boids tout simplement mdr
 
+faire un theme light un jour ?????
+
 les boids faire en sorte que ca refrech quand on redimensionne la page
 un jour réglé le probleme des boids qui se bloque dans les bordure ??
 
@@ -21,7 +23,7 @@ il faut peut être faire rajouter des élément qui font que on a envie de click
 
 la photo d'entrée est peut être trop agressive ? ne pas al mettre ? ou mettre qqch de plus discret
 
-rajouter le fait que j'ai OCP :- )
+rajouter le fait que j'ai OCP :- ) !!!!!!!!!!!!!!!!!!!!!!!!!
 
 mettre la meme fleche sur le menu d'acceuil que sur chaque page de projet
 

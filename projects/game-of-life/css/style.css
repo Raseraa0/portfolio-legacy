@@ -1,0 +1,10 @@
+@import '../../../css/global/background.css';
+@import '../../../css/global/font.css';
+@import '../../../css/global/color.css';
+
+@import 'Gstructure.css';
+@import 'Gstyle.css';
+
+
+@import 'GnoElement.css';
+

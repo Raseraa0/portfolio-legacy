@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2.5em;
+  width: 70%;
+  transform: none;
+}
+
+.description {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-button {
+  top: 30px;
+  right: 30px;
+}
+
+.home-button svg {
+  width: 30px;
+  height: 30px;
+}
+.switch-light {
+  top: 100px;
+  right: 30px;
+}
+
+.switch-light svg {
+  width: 30px;
+  height: 30px;
+}
+
+.switch-light.active img.active{
+  display: block;
+}
+
+.switch-light.active img.inactive{
+  display: none;
+}
+
+.switch-light.inactive img.active{
+  display: none;
+}
+
+.switch-light.inactive img.inactive{
+  display: block;
+}
+
+
+@media screen and (min-width: 450px) {
+  h1 {
+    width: auto;
+    transform: translateX(-10%);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 4em;
+  }
+}
