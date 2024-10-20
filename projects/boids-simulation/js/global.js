@@ -1,5 +1,6 @@
 import { draw, setup } from "./game/TestEspaceBoids2D.js";
 import { listener, reset } from "./interaction.js";
+import { init_preset_1 } from "./presets.js";
 
 window.setup = setup;
 window.draw = draw;
@@ -19,6 +20,13 @@ function miseEnPlace() {
       switchLight.classList.add("active");
       body.classList.remove("disabled");
     }
+  });
+
+  const preset1 = document.querySelector(".preset-1");
+
+  preset1.addEventListener("click", function(){
+    init_preset_1();
+    setup();
   });
 }
 
