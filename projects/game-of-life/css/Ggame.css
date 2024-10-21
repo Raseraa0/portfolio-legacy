@@ -7,10 +7,12 @@
 .ligne{
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
 }
 
 .case{
     opacity: 0.2;
+    flex-grow: 1;
     outline: 3px solid rgba(0,0,0,25);
 }
 

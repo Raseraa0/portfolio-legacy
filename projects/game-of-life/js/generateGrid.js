@@ -27,8 +27,7 @@ export function generateGrid() {
       newCase.classList.add("case");
       newCase.classList.add(`ligne-${li}`);
       newCase.classList.add(`colonne-${co}`);
-      newCase.style.height = `${t}px`;
-      newCase.style.width = `${t}px`;
+      newCase.textContent = "";
 
       newCase.id = `case-ligne-${li}-colonne-${co}`;
 
