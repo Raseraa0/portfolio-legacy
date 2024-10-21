@@ -15,14 +15,12 @@ body.disabled .button {
 }
 
 body.disabled .button:hover {
-    opacity: 1;
-  }
+  opacity: 1;
+}
 
-  body.disabled .play.running {
-    opacity: 0.4;
-  }
-  
-
+body.disabled .play.running {
+  opacity: 0.4;
+}
 
 body.disabled .size-zone {
   opacity: 0;

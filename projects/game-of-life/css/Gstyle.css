@@ -10,7 +10,7 @@ body {
   border: solid 2px var(--highlight);
   box-shadow: 0 0 10px 2px var(--highlight);
   opacity: 0.5;
-  
+
   transition: all 0.2s ease-in-out;
 }
 
@@ -24,8 +24,9 @@ body {
   box-shadow: 0 0 5px 2px var(--highlight);
 }
 
-.play.running:hover {
-  opacity: 0.5;
+.play.running {
+  opacity: 0.2;
+  cursor: not-allowed;
   box-shadow: 0 0 10px 2px var(--highlight);
 }
 
@@ -40,13 +41,12 @@ h1 {
   font-family: "Urbanist";
 }
 
-.size-value{
+.size-value {
   color: var(--light-font);
   font-family: "Urbanist";
 }
 
-
-.size-info-value{
+.size-info-value {
   color: var(--light-font);
   font-family: "Urbanist";
 }
