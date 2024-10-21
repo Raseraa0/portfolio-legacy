@@ -1,0 +1,102 @@
+.slider {
+    -webkit-appearance: none; /* supprime les valeurs par defaut */
+    appearance: none;
+    height: 5px;
+    background: var(--element);
+    border-radius: 5px;
+    opacity: 0.8;
+  
+    margin: 5px 0;
+  
+    transition: opacity 0.2s ease-in-out, box-shadow 0.02s ease-in-out;
+  }
+  
+  .size-zone:hover .slider {
+    opacity: 1;
+    box-shadow: 0 0 5px 1px var(--highlight);
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 15px;
+    background: var(--light-font);
+    border-radius: 5px;
+    cursor: pointer;
+  
+    transform: translateY(-5px);
+  
+    transition: all 0.2s ease-out;
+  }
+  
+  .slider::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 15px;
+    background: var(--light-font);
+    border-radius: 5px;
+    cursor: pointer;
+    
+    transform: translateY(-5px);
+  
+    transition: all 0.2s ease-out;
+  }
+  
+  .slider::-ms-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 15px;
+    background: var(--light-font);
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+    transform: translateY(-5px);
+    transition: all 0.2s ease-out;
+  }
+  
+  .slider::-webkit-slider-runnable-track {
+    -webkit-appearance: none; /* supprime les valeurs par defaut */
+    appearance: none;
+    width: 80%;
+    height: 5px;
+    background: var(--element);
+    border-radius: 5px;
+    opacity: 0.8;
+  }
+  
+  .slider::-moz-range-track {
+    -webkit-appearance: none; /* supprime les valeurs par defaut */
+    appearance: none;
+    width: 80%;
+    height: 5px;
+    background: var(--element);
+    border-radius: 5px;
+    opacity: 0.8;
+  }
+  
+  .slider::-ms-track {
+    -webkit-appearance: none; /* supprime les valeurs par defaut */
+    appearance: none;
+    width: 80%;
+    height: 5px;
+    background: var(--element);
+    border-radius: 5px;
+    opacity: 0.8;
+  }
+  
+  .size-zone:hover .slider::-webkit-slider-thumb {
+    width: 15px;
+  }
+  
+  .size-zone:hover .slider::-moz-range-thumb {
+    width: 15px;
+  }
+  
+  .size-zone:hover .slider::-ms-thumb {
+    width: 15px;
+  }
+  

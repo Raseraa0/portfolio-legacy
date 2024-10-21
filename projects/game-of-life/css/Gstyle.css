@@ -24,6 +24,11 @@ body {
   box-shadow: 0 0 5px 2px var(--highlight);
 }
 
+.play.running:hover {
+  opacity: 0.5;
+  box-shadow: 0 0 10px 2px var(--highlight);
+}
+
 h1 {
   font-family: "Diastema Regular";
   font-weight: normal;
@@ -31,6 +36,17 @@ h1 {
 }
 
 .description {
+  color: var(--light-font);
+  font-family: "Urbanist";
+}
+
+.size-value{
+  color: var(--light-font);
+  font-family: "Urbanist";
+}
+
+
+.size-info-value{
   color: var(--light-font);
   font-family: "Urbanist";
 }

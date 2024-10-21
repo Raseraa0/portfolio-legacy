@@ -8,6 +8,7 @@
     <script src="js/global.js" type="module"></script>
   </head>
   <body>
+    <div id="game"></div>
     <div class="container">
       <header>
         <h1>Game Of Life</h1>
@@ -18,12 +19,34 @@
             />
           </svg>
         </a>
-		<button class="switch-light button active" >
-			<img class="active" src="../img/lamp-on.svg" alt="">
-			<img class="inactive" src="../img/lamp-off.svg" alt="">
-		  </button>
+        <button class="switch-light button active">
+          <img class="active" src="../img/lamp-on.svg" alt="" />
+          <img class="inactive" src="../img/lamp-off.svg" alt="" />
+        </button>
+        <button class="reset button">
+          <img src="../img/arrow-circle.svg" alt="" />
+        </button>
+        <button class="play button">
+          <img src="../img/play-icon.svg" alt="" />
+        </button>
+        <button class="blank button">
+          <img src="../img/blank.svg" alt="" />
+        </button>
       </header>
-      <div></div>
+      <div id="empty-space"></div>
+      <div class="size-zone">
+        <div class="text-size">
+          <span class="size-info-value">Size of cells: </span>
+          <span class="size-value">30</span>
+        </div>
+        <input
+          class="slider-case-size slider"
+          type="range"
+          min="20"
+          max="100"
+          value="30"
+        />
+      </div>
       <div class="description">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam esse

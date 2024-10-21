@@ -1,3 +1,11 @@
+faire une restructuration ou genre je met le css des boutton ensemble, ou genre je met plein de truc ensemble quoi
+
+pour les boids il me faut un bouton reset, un bouton play ( que je ne peut plus clicker une fois que c'est lancé) et il faut aussi que je mette un message comme quoi on peut clicker sur les cases pour les colorer ou pas (mais il faut pas que le message gene trop genre)
+
+pour la couleur des case, en vrai juste mettre un blanc et un noire, mais avec une opacité genre de 0.5 comme ca c'est quand meme en accord avec le fond
+
+améliorer le style de la page principal ? tout con mais juste avec dégradé sur les élémenent et tt, ou genre des couleur plus sombre genre comme sur le truc des boids c'est bien en vrai la ba 
+
 pour le jeu de la vie, ne pas faire avec p5.js ca sera trop over kill et limiterai les interaction possible
 
 pour les boids, faire un bouton reset, et faire des preset, genre 3 preset ca pourrait etre stylé, et faire attention au problème que je pourrait avoir genre check les range de toute les valeurs

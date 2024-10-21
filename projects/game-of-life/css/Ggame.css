@@ -1,0 +1,28 @@
+#game{
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+}
+
+.ligne{
+    display: flex;
+    flex-direction: row;
+}
+
+.case{
+    opacity: 0.2;
+    outline: 3px solid rgba(0,0,0,25);
+}
+
+
+.case.white{
+    background-color: white;
+}
+
+.case.black{
+    background-color: var(--dark-element);
+}
+
+body.disabled .case {
+    opacity: 1;
+}
