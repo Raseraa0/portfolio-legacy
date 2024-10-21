@@ -1,88 +1,44 @@
-faire une restructuration ou genre je met le css des boutton ensemble, ou genre je met plein de truc ensemble quoi
+# Todo ouuuuuuu
 
-pour les boids il me faut un bouton reset, un bouton play ( que je ne peut plus clicker une fois que c'est lancé) et il faut aussi que je mette un message comme quoi on peut clicker sur les cases pour les colorer ou pas (mais il faut pas que le message gene trop genre)
+### Restructuration
 
-pour la couleur des case, en vrai juste mettre un blanc et un noire, mais avec une opacité genre de 0.5 comme ca c'est quand meme en accord avec le fond
+- mettre les CSS commun ensemble, je pense notalement a tout les bouton des projets
+- a chaque fois mettre les boutons dans un truc genre navigation ? ca serai plus propre je pense
+- tout passer en typescript en vrai....
 
-améliorer le style de la page principal ? tout con mais juste avec dégradé sur les élémenent et tt, ou genre des couleur plus sombre genre comme sur le truc des boids c'est bien en vrai la ba 
+### Visuel
 
-pour le jeu de la vie, ne pas faire avec p5.js ca sera trop over kill et limiterai les interaction possible
+- signaler que l'on peut clicker sur les case lorsque l'on a la vue éclaircie sur la page du game of life
+- rajouter un hi im d'une autre couleur ??????
+- mettre en évidence les boutons des pages projet afin qu'un sache ce qu'on peut faire
+- mettre en évidence les bouton en savoir plus
+- mettre un truc qui invite a scroll down (cf page du goat)
+- load la page progressivement, c'est tout con mais juste des fade d'opacité un par un ?
+- **rajouter le fait que j'ai OCP :-)**
+- mettre la meme fleche sur le menu d'acceuil que sur chaque page de projet
+- changer les icones genre de logo ?
+- faire tout les textes...
+- foutre des ombre partout ???
+- les compétence, faire en sorte que ca ressort comme si c'était en relief ??
+- changer l'animation de quand je clique sur contact 
 
-pour les boids, faire un bouton reset, et faire des preset, genre 3 preset ca pourrait etre stylé, et faire attention au problème que je pourrait avoir genre check les range de toute les valeurs
+### Features
 
-tout passer en typescript en vrai....
+- faire un theme light un jour 
+- (rajouter des presets pour les boids)
+- (rajouter des preset pour les boids, genre planner, génération de planner et tt)
+- responsive pour le wallpaper project, faire 2 ou 3 ligne avec des image plus petite
+- ((rajouter fonctionnalité comme bouton pour passer a la section suivante))
+- en dessous, et au dessus sur les icon, avoir mon adresse mail (ou logo lettre) ou je peux cliquer et ca ouvre directement un truc pour envoyer un mal
+- quand je passe ma souris sur ma photo genre emttre des info genre mon age mes passion etc genre les truc plus perso quoi
 
-reglé le problème des boids tout simplement mdr
+### Random
 
-faire un theme light un jour ?????
-
-les boids faire en sorte que ca refrech quand on redimensionne la page
-un jour réglé le probleme des boids qui se bloque dans les bordure ??
-
-quand on revient en arrière essayer de ce rappeler de ou on était sur la page
-
-rajouter un hi im d'une autre couleur ??????
-
-mettre en évidence le bouton menu de la page du projet boid afin que l'on sache que l'on peut accéder a ce menu afin de change les parametre et tout
-
-problème de responsive pour le wallpaper project
-
-il faut peut être faire rajouter des élément qui font que on a envie de clicker, que ce soit sur les bouton de "en savoir" plus des projets, ou bien au tout début, sur la barre des tâche ou genre genre un truc animé qui veut dire scroll down quoi
-
-la photo d'entrée est peut être trop agressive ? ne pas al mettre ? ou mettre qqch de plus discret
-
-rajouter le fait que j'ai OCP :- ) !!!!!!!!!!!!!!!!!!!!!!!!!
-
-mettre la meme fleche sur le menu d'acceuil que sur chaque page de projet
-
-faire des animation partout
-
-
-rajouter fonctionnalité comme bouton pour passer a la section suivante
-
-faire le défilement met avec full css, peut etre que ca va régler les soucis de fluidité
-
-((en dessous, faire truc pour envoyer des messages))
-
-ameliorer tout les truc genre la les project sont pas beau quoi
-
-changer les icone genre de logo ?
+- améliorer le style de la page principal ? tout con mais juste avec dégradé sur les élémenent et tt, ou genre des couleur plus sombre genre comme sur le truc des boids c'est bien en vrai la 
+- regler le problème des boids tout simplement (probleme avec la bordure et autre)
+- boids regarder quelle sont les valeurs ou il faut surtout pas aller
+- la photo qui apparait quand on arrive sur le site fais peut être trop agressive
+- faire des animation partout
+- vérifier la cohérence de la langue utilisé
 
 
-vérifier la cohérence de la langue utilisé
-
-link le wallpaper
-
-faire le game of life
-
-link le game of life
-
-faire section ou jexplique boids
-
-//TODO scroll bar transparente sur mobile ? ( et peut etre sur pc)
-genre en mode custom scroll barre apres faut pas en faire trop ( oui ne pas en faire trop )
-
-
-foutre des ombre partout ???
-
-meilleur background? genre motif ou gros degradé de couleur jsp
-
-les compétence, faire en sorte que ca ressort comme si c'était en relief ??
-
-(intégrer boids ?)
-
-
-réfléchir a la coérence entre l'utilisation du francais et de l'anglais???
-
-
-
-faire tout en plus petit ?? gene ca fait plus pros souvent
-
-
-
-mettre les bouton en savoir plus en evidence pour qu'on sache qu'il faut cliquer dessus, par exemple avec des >> en savoir plus << 
-ou genre avec une animation autour
-
-quand je passe ma souris sur ma photo genre emttre des info genre mon age mes passion etc genre les truc plus perso quoi
-
-quand je clique sur contact plutot essayer de faire qqch ou je met en évidence les contact, gerne sur la page d'acceuil je fais qqch jsp 

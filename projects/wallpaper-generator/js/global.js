@@ -1,9 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
-  loadWallpapers();
+  loadWallpapers(1);
+  loadWallpapers(2);
+  loadWallpapers(3);
 });
 
-function loadWallpapers() {
-  const container = document.querySelector(".image-container");
+function loadWallpapers(number) {
+  const container = document.querySelector(`.image-container-${number}`);
   const numberOfImages = 18; // Le nombre total d'images que tu souhaites charger
   const time = 150;
   const imgWidth = 800; // have to match !!

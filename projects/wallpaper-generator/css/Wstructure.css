@@ -77,25 +77,28 @@ h1 {
   }
 }
 
-@keyframes scrollLeftSlowly {
+@keyframes scrollRight {
+  from {
+    left: -800px;
+  }
   to {
-    left: -800px; /*have to match !!*/
+    left: max(calc(800px * 18), 100%); /* 18 have to match with the number of wallpaper*/
   }
 }
 
-.image-container img {
-  width: 800px; /* have to match !! */
-  object-fit: cover;
 
+.image-container img {
+  width: 800px;
+  object-fit: cover;
   position: absolute;
-  left: max(calc(200px * 8), 100%); /*modified by js*/
+  left: max(calc(200px * 8), 100%);
   animation-name: scrollLeft;
-  animation-duration: 30s; /*modified by js*/
+  animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-
   transition: width 1s ease-in-out, transform 0.5s ease-in-out;
 }
+
 
 .image-container:has(img:hover) img {
   animation-play-state: paused;
@@ -117,10 +120,12 @@ h1 {
     width: auto;
     transform: translateX(-10%);
   }
+
 }
 
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 4em;
   }
+  
 }
