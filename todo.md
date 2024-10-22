@@ -40,5 +40,5 @@
 - la photo qui apparait quand on arrive sur le site fais peut être trop agressive
 - faire des animation partout
 - vérifier la cohérence de la langue utilisé
-
+- mettre les alt partout pour chaque img (img et svg)
 

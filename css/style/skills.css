@@ -65,3 +65,34 @@
   );
   border-color: var(--skill-4-b);
 }
+
+#ocp {
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 8px;
+
+  color: var(--dark-font);
+  
+  box-shadow: 6px 6px 10px 0px var(--dark-shadow-transparent);
+  
+  background: linear-gradient(
+    30deg,
+    var(--skill-5-b) -40%,
+    var(--skill-5-a) 50%,
+    var(--skill-5-b) 140%
+  );
+  border-color: var(--skill-5-b);
+
+  transition: all 0.8s ease-out;
+}
+
+
+#ocp-description {
+  color: var(--dark-font);
+  text-decoration: none;
+}
+
+#ocp-description:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
