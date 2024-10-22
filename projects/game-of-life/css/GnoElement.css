@@ -18,10 +18,6 @@ body.disabled .button:hover {
   opacity: 1;
 }
 
-body.disabled .play.running {
-  opacity: 0.4;
-}
-
 body.disabled .size-zone {
   opacity: 0;
 }
@@ -32,4 +28,16 @@ body.disabled #game {
 
 body.disabled .button {
   z-index: 11;
+}
+
+body.disabled:not(:has(.play.play.running)) .case {
+  cursor: pointer;
+}
+
+body.disabled:not(:has(.play.play.running)) .case.white:hover {
+  background-color: #baf0ff;
+}
+
+body.disabled:not(:has(.play.play.running)) .case.black:hover {
+  background-color: #005c76;
 }

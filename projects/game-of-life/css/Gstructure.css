@@ -80,10 +80,23 @@ h1 {
   right: 30px;
 }
 
-.play img {
+.play img.play {
   width: 25px;
   height: 25px;
   transform: translateX(2px);
+}
+
+.play img.pause {
+  width: 23px;
+  height: 23px;
+}
+
+.play.running img.play {
+  display: none;
+}
+
+.play:not(.running) img.pause {
+  display: none;
 }
 
 .blank {

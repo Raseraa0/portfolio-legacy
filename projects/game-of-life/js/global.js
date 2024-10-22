@@ -35,6 +35,9 @@ function miseEnPlace() {
       intervalId = setInterval(function () {
         instanceJeuDeLaVie.next();
       }, 100);
+    } else {
+      playButton.classList.remove("running");
+      clearInterval(intervalId);
     }
   });
 

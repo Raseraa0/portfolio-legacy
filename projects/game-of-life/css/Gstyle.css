@@ -24,12 +24,6 @@ body {
   box-shadow: 0 0 5px 2px var(--highlight);
 }
 
-.play.running {
-  opacity: 0.2;
-  cursor: not-allowed;
-  box-shadow: 0 0 10px 2px var(--highlight);
-}
-
 h1 {
   font-family: "Diastema Regular";
   font-weight: normal;

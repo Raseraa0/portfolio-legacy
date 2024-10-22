@@ -14,7 +14,6 @@
 - mettre en évidence les bouton en savoir plus
 - mettre un truc qui invite a scroll down (cf page du goat)
 - load la page progressivement, c'est tout con mais juste des fade d'opacité un par un ?
-- **rajouter le fait que j'ai OCP :-)**
 - mettre la meme fleche sur le menu d'acceuil que sur chaque page de projet
 - changer les icones genre de logo ?
 - faire tout les textes...
@@ -41,4 +40,5 @@
 - faire des animation partout
 - vérifier la cohérence de la langue utilisé
 - mettre les alt partout pour chaque img (img et svg)
+
 
