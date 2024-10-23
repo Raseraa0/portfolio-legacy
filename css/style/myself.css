@@ -38,3 +38,10 @@
 .media.activated {
   box-shadow: 0 0 50px var(--dark-shadow);
 }
+
+.scroll-down {
+  transition: opacity 1s ease-in-out;
+}
+.scroll-down .chevron {
+  filter: invert();
+}

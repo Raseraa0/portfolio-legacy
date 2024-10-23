@@ -84,7 +84,6 @@
 
 
 .chevron {
-  width: 15px;
   opacity: 0.3;
   animation: blink 1.5s infinite;
 }

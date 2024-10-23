@@ -10,7 +10,6 @@
 - signaler que l'on peut clicker sur les case lorsque l'on a la vue éclaircie sur la page du game of life
 - rajouter un hi im d'une autre couleur ??????
 - mettre en évidence les boutons des pages projet afin qu'un sache ce qu'on peut faire
-- mettre un truc qui invite a scroll down (cf page du goat)
 - load la page progressivement, c'est tout con mais juste des fade d'opacité un par un ?
 - mettre la meme fleche sur le menu d'acceuil que sur chaque page de projet
 - changer les icones genre de logo ?

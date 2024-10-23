@@ -59,6 +59,24 @@
   border-radius: 50%;
 }
 
+.scroll-down {
+  position: absolute;
+  transform: rotateZ(90deg);
+  bottom: 50px;
+}
+
+.scroll-down .chevron {
+  width: 15px;
+}
+
+.scroll-down-left {
+  left: 20%;
+}
+
+.scroll-down-right {
+  right: 20%;
+}
+
 @media screen and (min-width: 768px) {
   #hero-centered {
     width: 75%;
@@ -81,6 +99,10 @@
 
   .media {
     width: 35px;
+  }
+
+  .scroll-down .chevron {
+    width: 30px;
   }
 }
 
