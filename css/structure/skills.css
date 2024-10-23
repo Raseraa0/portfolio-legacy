@@ -73,7 +73,7 @@
   align-items: center;
   gap: 15px;
 
-  padding: 10px;
+  padding: 10px 10px 0 10px;
 
   right: 5%;
   top: -50px;
@@ -82,7 +82,7 @@
 }
 
 #ocp-image {
-  width: 70px;
+  width: 60px;
 }
 
 #ocp-description {
@@ -96,6 +96,7 @@
 
 #ocp:hover #ocp-description {
   font-size: 1em;
+  padding-bottom: 10px;
   opacity: 1;
 }
 
@@ -138,7 +139,6 @@
   }
 
   #ocp {
-    padding: 10px;
 
     right: -50px;
     top: 30%;
