@@ -17,6 +17,8 @@ export function generateGrid() {
     game.removeChild(game.firstChild);
   }
 
+  const playButton = document.querySelector(".play");
+
   for (let li = 0; li < h; li++) {
     const newLine = document.createElement("div");
     newLine.classList.add("ligne");
@@ -32,6 +34,10 @@ export function generateGrid() {
       newCase.id = `case-ligne-${li}-colonne-${co}`;
 
       newCase.addEventListener("click", function () {
+        if (playButton.classList.contains("running")) {
+          return;
+        }
+
         if (instanceJeuDeLaVie.grille[li][co] === 0) {
           instanceJeuDeLaVie.grille[li][co] = 1;
           newCase.classList.add("black");
