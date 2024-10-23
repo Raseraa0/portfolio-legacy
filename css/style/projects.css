@@ -84,10 +84,13 @@
 
 
 .chevron {
-  color: var(--dark-font);
-  font-weight: bold;
+  width: 15px;
   opacity: 0.3;
   animation: blink 1.5s infinite;
+}
+
+.chevrons-right {
+  transform: rotateZ(-180deg);
 }
 
 .chevron-2{
