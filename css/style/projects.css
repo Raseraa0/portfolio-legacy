@@ -12,12 +12,21 @@
 
   color: var(--muted-dark-font);
 
-  background-color: var(--muted-element);
-
+  background: linear-gradient(
+    30deg,
+    var(--on-click-dark) -40%,
+    var(--muted-element) 50%,
+    var(--on-click-dark) 140%
+  );
+  border-color: var(--on-click-dark);
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
   box-shadow: 0 0 5px 1px var(--dark-shadow);
 
   transition: all 1s ease-out, background-color 1s ease-in-out,
-    color 0.5s ease-in-out, width 1s ease-in, height 1s ease-out;
+    color 0.5s ease-in-out, width 1s ease-in, height 1s ease-out,
+    border-color 0s;
 }
 
 .project:hover {
@@ -25,7 +34,13 @@
 
   box-shadow: 0 0 30px var(--highlight);
 
-  background-color: var(--element);
+  background: linear-gradient(
+    30deg,
+    var(--project-b) -40%,
+    var(--project-a) 50%,
+    var(--project-b) 140%
+  );
+  border-color: var(--project-b);
 }
 
 .project-description {
@@ -65,4 +80,32 @@
 
 .project:hover .project-img {
   box-shadow: 0 0 20px var(--dark-shadow);
+}
+
+.chevron {
+  color: var(--dark-font);
+  font-weight: bold;
+  opacity: 0.3;
+  animation: blink 1.5s infinite;
+}
+
+.chevron-2{
+  animation-delay: 0.2s;
+}
+
+
+.chevron-3{
+  animation-delay: 0.4s;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0.3;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
 }

@@ -22,11 +22,12 @@ function miseEnPlace() {
     }
   });
 
-  const preset1 = document.querySelector(".preset-1");
-
-  preset1.addEventListener("click", function(){
-    init_preset_1();
-    setup();
+  const allPreset1 = document.querySelectorAll(".preset-1");
+  allPreset1.forEach((preset1) => {
+    preset1.addEventListener("click", function () {
+      init_preset_1();
+      setup();
+    });
   });
 }
 

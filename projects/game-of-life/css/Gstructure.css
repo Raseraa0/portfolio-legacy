@@ -19,8 +19,18 @@ h1 {
   padding: 2rem 0;
 }
 
-.button {
+nav.nav-button {
   position: absolute;
+  top: 30px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.button {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -30,18 +40,10 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-.home-button {
-  top: 30px;
-  right: 30px;
-}
 
 .home-button svg {
   width: 30px;
   height: 30px;
-}
-.switch-light {
-  top: 100px;
-  right: 30px;
 }
 
 .switch-light svg {
@@ -65,19 +67,9 @@ h1 {
   display: block;
 }
 
-.reset {
-  top: 170px;
-  right: 30px;
-}
-
 .reset img {
   width: 30px;
   height: 30px;
-}
-
-.play {
-  top: 240px;
-  right: 30px;
 }
 
 .play img.play {
@@ -97,11 +89,6 @@ h1 {
 
 .play:not(.running) img.pause {
   display: none;
-}
-
-.blank {
-  top: 310px;
-  right: 30px;
 }
 
 .blank img {

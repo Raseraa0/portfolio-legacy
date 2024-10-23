@@ -28,8 +28,25 @@ h1 {
   padding: 2rem 0;
 }
 
-.button {
+nav.nav-button {
   position: absolute;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+nav.nav-button-right {
+  right: 30px;
+}
+
+nav.nav-button-left {
+  left: 30px;
+}
+
+.button {
   border-radius: 50%;
   height: 50px;
   width: 50px;
@@ -40,19 +57,9 @@ h1 {
   align-items: center;
 }
 
-.home-button {
-  top: 30px;
-  right: 30px;
-}
-
 .home-button svg {
   width: 30px;
   height: 30px;
-}
-
-.switch-light {
-  top: 100px;
-  right: 30px;
 }
 
 .switch-light svg {
@@ -76,9 +83,8 @@ h1 {
   display: block;
 }
 
-.preset-1 {
-  top: 30px;
-  left: 30px;
+.nav-button-right .preset-1 {
+  display: none;
 }
 
 .preset-1 img {
@@ -160,16 +166,15 @@ h1 {
     width: 80%;
   }
 
-  .switch-light {
-    top: 120px;
-    right: 30px;
+  .nav-button-right .preset-1 {
+    display: block;
   }
 
-  .preset-1 {
-    top: 210px;
-    right: 30px;
-    left: auto;
+  .nav-button-left .preset-1 {
+    display: none;
   }
+
+
 }
 
 @media screen and (min-width: 768px) {
