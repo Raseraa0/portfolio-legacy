@@ -38,6 +38,6 @@
 - faire des animation partout
 - vérifier la cohérence de la langue utilisé
 - mettre les alt partout pour chaque img (img et svg)
-
+- repasser sur tout les class="" et regarder si je peux pas remplacer pes id=""
 
 

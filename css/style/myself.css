@@ -19,6 +19,18 @@
   box-shadow: 0 0 10px var(--light-shadow);
 }
 
+#download-cv-button img {
+  box-shadow: 0 0 30px var(--highlight);
+  border-radius: 50%;
+  filter: invert();
+
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+#download-cv-button:hover img {
+  box-shadow: 0 0 10px var(--dark-shadow);
+}
+
 .media {
   border-radius: 50%;
 
