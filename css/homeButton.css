@@ -1,46 +1,69 @@
-
-
 #back-to-top {
-    position: fixed;
-    top: 30px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
 
-    border-radius: 50%;
-    background-color: var(--muted-element);
-    color: var(--dark-element);
-    border: solid 2px var(--highlight);
-    box-shadow: 0 0 10px 2px var(--highlight);
+  border-radius: 50%;
+  background-color: var(--muted-element);
+  color: var(--dark-element);
+  border: solid 2px var(--highlight);
+  box-shadow: 0 0 10px 2px var(--highlight);
 
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 
-    
-    transition: opacity 0.5s;
-    opacity: 0;
-    z-index: 1000;
-  } 
-  
-  #back-to-top:hover {
-    opacity: 0;
-  }
-  
-  #back-to-top svg {
-    width: 30px;
-    height: 30px;
-    filter: drop-shadow(0 0 1px var(--dark-shadow));
-    transform: rotateZ(90deg);
-  }
-  
-  #back-to-top.show {
-    cursor: pointer;
-    display: block;
-    opacity: 0.5;
-  } 
-  #back-to-top.show:hover {
-    opacity: 1;
-  }
+  transition: opacity 0.5s;
+  opacity: 0;
+  z-index: 1000;
+}
 
+#back-to-top:hover {
+  opacity: 0;
+}
 
-  
+#back-to-top svg {
+  width: 30px;
+  height: 30px;
+  filter: drop-shadow(0 0 1px var(--dark-shadow));
+  transform: rotateZ(90deg);
+}
+
+#back-to-top.show {
+  cursor: pointer;
+  display: block;
+  opacity: 0.5;
+}
+#back-to-top.show:hover {
+  opacity: 1;
+}
+
+.button-help {
+  position: absolute;
+
+  right: 0;
+
+  transform: translateX(-100px);
+
+  font-size: 1.5em;
+
+  white-space: nowrap;
+}
+
+#back-to-top.show .button-help {
+  color: var(--light-font);
+  font-family: "Urbanist";
+  font-weight: bold;
+
+  background-color: var(--dark-shadow);
+  box-shadow: 0 0 10px 10px var(--dark-shadow);
+
+  opacity: 0;
+
+  transition: opacity 0.5s ease-in-out;
+}
+
+#back-to-top.show:hover .button-help {
+  opacity: 100%;
+}

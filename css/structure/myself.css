@@ -74,11 +74,11 @@
 }
 
 .scroll-down-left {
-  left: 20%;
+  left: 5%;
 }
 
 .scroll-down-right {
-  right: 20%;
+  right: 5%;
 }
 
 @media screen and (min-width: 768px) {
@@ -141,6 +141,14 @@
 
   .scroll-down .chevron {
     width: 30px;
+  }
+
+  .scroll-down-left {
+    left: 20%;
+  }
+  
+  .scroll-down-right {
+    right: 20%;
   }
 }
 

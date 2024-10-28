@@ -35,6 +35,23 @@ h1 {
   box-shadow: 0 0 5px 2px var(--highlight);
 }
 
+.button-help {
+  color: var(--light-font);
+  font-family: "Urbanist";
+  font-weight: bold;
+
+  background-color: var(--dark-shadow);
+  box-shadow: 0 0 10px 10px var(--dark-shadow);
+
+  opacity: 0;
+
+  transition: opacity 0.5s ease-in-out;
+}
+
+.button:hover .button-help {
+  opacity: 100%;
+}
+
 .parameter span {
   color: var(--light-font);
   font-family: "Urbanist";

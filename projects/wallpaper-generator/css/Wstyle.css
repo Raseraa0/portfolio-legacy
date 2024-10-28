@@ -10,7 +10,7 @@ body {
   border: solid 2px var(--highlight);
   box-shadow: 0 0 10px 2px var(--highlight);
   opacity: 0.5;
-  
+
   transition: all 0.2s ease-in-out;
 }
 
@@ -24,6 +24,23 @@ body {
   box-shadow: 0 0 5px 2px var(--highlight);
 }
 
+.button-help {
+  color: var(--light-font);
+  font-family: "Urbanist";
+  font-weight: bold;
+
+  background-color: var(--dark-shadow);
+  box-shadow: 0 0 10px 10px var(--dark-shadow);
+
+  opacity: 0;
+
+  transition: opacity 0.5s ease-in-out;
+}
+
+.button:hover .button-help {
+  opacity: 100%;
+}
+
 h1 {
   font-family: "Diastema Regular";
   font-weight: normal;
@@ -32,7 +49,6 @@ h1 {
 
 .image-container img {
   box-shadow: 0 0 15px -5px var(--highlight);
-
 }
 
 .image-slider {

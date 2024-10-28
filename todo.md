@@ -15,7 +15,6 @@
 - faire tout les textes...
 - foutre des ombre partout ???
 - les compétence, faire en sorte que ca ressort comme si c'était en relief ??
-- décalé les chevron scroll down qur téléphone pour pas que ca chevauche les contats
 
 ### Features
 
