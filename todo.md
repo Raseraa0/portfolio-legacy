@@ -17,6 +17,8 @@
 - foutre des ombre partout ???
 - les compétence, faire en sorte que ca ressort comme si c'était en relief ??
 - changer les boutton de contact en vrai ( puis changer l'animation)
+- **refaire les contacts pcq en vrai la cest pas très beau, refaire l'animation au passage**
+- décalé les chevron scroll down qur téléphone pour pas que ca chevauche les contats
 
 ### Features
 
@@ -39,5 +41,5 @@
 - vérifier la cohérence de la langue utilisé
 - mettre les alt partout pour chaque img (img et svg)
 - repasser sur tout les class="" et regarder si je peux pas remplacer pes id=""
-
+- s'assurer que sur petit ecran (low height) ca affiche bien (sur téléphone papa les titre projet sont sur la ligne... bizzare
 
