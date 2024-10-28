@@ -20,35 +20,56 @@
 }
 
 #download-cv-button img {
-  box-shadow: 0 0 30px var(--highlight);
-  border-radius: 50%;
-  filter: invert();
+  border-radius: 30%;
+  border: solid 5px var(--element);
+  background-color: var(--element);
+  cursor: pointer;
 
-  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 10px var(--highlight);
+
+  transition: box-shadow 0.3s ease-in-out, border-radius 0.5s ease-in-out,
+    background-color 0.3s ease-in-out;
 }
 
 #download-cv-button:hover img {
-  box-shadow: 0 0 10px var(--dark-shadow);
+  border-radius: 5%;
+  box-shadow: 0 0 20px var(--dark-shadow);
+
+  animation: media-hover .5s ease-in-out;
+  animation-fill-mode: forwards;
+
+
+  background-color: var(--light-shadow);
 }
 
 .media {
-  border-radius: 50%;
-
+  border-radius: 30%;
+  border: solid 5px var(--element);
+  background-color: var(--element);
   cursor: pointer;
 
-  box-shadow: 0 0 30px var(--highlight);
+  box-shadow: 0 0 10px var(--highlight);
 
-  filter: invert();
-
-  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, border-radius 0.5s ease-in-out,
+    background-color 0.3s ease-in-out;
 }
 
 .media:hover {
-  box-shadow: 0 0 10px var(--dark-shadow);
+  border-radius: 5%;
+  box-shadow: 0 0 20px var(--dark-shadow);
+
+  animation: media-hover .5s ease-in-out;
+  animation-fill-mode: forwards;
+
+
+  background-color: var(--light-shadow);
 }
 
 .media.activated {
-  box-shadow: 0 0 50px var(--dark-shadow);
+  border-radius: 5%;
+  box-shadow: 0 0 20px var(--dark-shadow);
+
+  background-color: var(--light-shadow);
 }
 
 .scroll-down {
@@ -56,4 +77,14 @@
 }
 .scroll-down .chevron {
   filter: invert();
+}
+
+@keyframes media-hover {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
 }
