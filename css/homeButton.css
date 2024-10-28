@@ -27,7 +27,10 @@
   }
   
   #back-to-top svg {
+    width: 30px;
+    height: 30px;
     filter: drop-shadow(0 0 1px var(--dark-shadow));
+    transform: rotateZ(90deg);
   }
   
   #back-to-top.show {

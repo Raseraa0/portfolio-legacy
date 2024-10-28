@@ -11,13 +11,10 @@
 - rajouter un hi im d'une autre couleur ??????
 - mettre en évidence les boutons des pages projet afin qu'un sache ce qu'on peut faire
 - load la page progressivement, c'est tout con mais juste d es fade d'opacité un par un ?
-- mettre la meme fleche sur le menu d'acceuil que sur chaque page de projet
 - changer les icones genre de logo ?
 - faire tout les textes...
 - foutre des ombre partout ???
 - les compétence, faire en sorte que ca ressort comme si c'était en relief ??
-- changer les boutton de contact en vrai ( puis changer l'animation)
-- **refaire les contacts pcq en vrai la cest pas très beau, refaire l'animation au passage**
 - décalé les chevron scroll down qur téléphone pour pas que ca chevauche les contats
 
 ### Features
