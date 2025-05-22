@@ -1,0 +1,31 @@
+#legacy {
+    position: fixed;
+    top: 100px;
+    z-index: 1000;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #00000088;
+}
+
+#legacy-text {
+    font-size: 2em;
+    transition: all 1s ease-in-out;
+}
+
+#legacy-ref {
+    font-size: 4em;
+    transition: all 1s ease-in-out;
+}
+
+#legacy:hover {
+    background-color: #00FFFF44;
+}
+
+#legacy-ref:hover {
+    filter: drop-shadow(0 0 10px #00FFFF);
+    transform: scale(1.1);
+    
+}
