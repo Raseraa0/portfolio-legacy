@@ -20,6 +20,11 @@ Here are the direct links to the interactive project pages:
 - [Game of life](https://raseraa0.github.io/portfolio-legacy/projects/game-of-life/)
 - [Boids Simulation](https://raseraa0.github.io/portfolio-legacy/projects/boids-simulation/)
 
+<p align="center">
+  <img src="./img/preview-gol.png" width="40%"/>
+  <img src="./img/preview-bs.png" width="40%"/>
+</p>
+
 ## 🧰 Toolbox
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
