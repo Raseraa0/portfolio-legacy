@@ -8,7 +8,7 @@
 
 # 📌 Old Protfolio
 
-![Project preview](./img/preview.png)
+![Project preview](./preview.png)
 
 ## 📝 Overview
 
@@ -21,8 +21,8 @@ Here are the direct links to the interactive project pages:
 - [Boids Simulation](https://raseraa0.github.io/portfolio-legacy/projects/boids-simulation/)
 
 <p align="center">
-  <img src="./img/preview-gol.png" width="40%"/>
-  <img src="./img/preview-bs.png" width="40%"/>
+  <img src="./preview-gol.png" width="40%"/>
+  <img src="./preview-bs.png" width="40%"/>
 </p>
 
 ## 🧰 Toolbox
